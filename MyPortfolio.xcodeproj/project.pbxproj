@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		D715446E2B26F60000C53089 /* MyPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715446D2B26F60000C53089 /* MyPortfolioApp.swift */; };
-		D71544702B26F60000C53089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715446F2B26F60000C53089 /* ContentView.swift */; };
 		D71544722B26F60100C53089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71544712B26F60100C53089 /* Assets.xcassets */; };
 		D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71544742B26F60100C53089 /* Preview Assets.xcassets */; };
+		D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A7932B270473000C19F1 /* .swiftlint.yml */; };
+		D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463672B2715EB00F5C365 /* Color+Extensions.swift */; };
+		D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */; };
+		D7F4636E2B272CAC00F5C365 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636D2B272CAC00F5C365 /* TabBarView.swift */; };
+		D7F463702B272CFC00F5C365 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636F2B272CFC00F5C365 /* AboutMe.swift */; };
+		D7F463732B272D3D00F5C365 /* CareerGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463722B272D3D00F5C365 /* CareerGoals.swift */; };
+		D7F463752B272D4B00F5C365 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463742B272D4B00F5C365 /* Education.swift */; };
+		D7F463772B272D5500F5C365 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463762B272D5500F5C365 /* Experience.swift */; };
+		D7F463792B272D6000F5C365 /* Passions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463782B272D6000F5C365 /* Passions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D715446A2B26F60000C53089 /* MyPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715446D2B26F60000C53089 /* MyPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPortfolioApp.swift; sourceTree = "<group>"; };
-		D715446F2B26F60000C53089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D71544712B26F60100C53089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71544742B26F60100C53089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7E5A7932B270473000C19F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D7F463672B2715EB00F5C365 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		D7F4636D2B272CAC00F5C365 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		D7F4636F2B272CFC00F5C365 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		D7F463722B272D3D00F5C365 /* CareerGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoals.swift; sourceTree = "<group>"; };
+		D7F463742B272D4B00F5C365 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		D7F463762B272D5500F5C365 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		D7F463782B272D6000F5C365 /* Passions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,7 @@
 		D71544612B26F60000C53089 = {
 			isa = PBXGroup;
 			children = (
+				D7E5A7932B270473000C19F1 /* .swiftlint.yml */,
 				D715446C2B26F60000C53089 /* MyPortfolio */,
 				D715446B2B26F60000C53089 /* Products */,
 			);
@@ -51,8 +68,9 @@
 		D715446C2B26F60000C53089 /* MyPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				D715446D2B26F60000C53089 /* MyPortfolioApp.swift */,
-				D715446F2B26F60000C53089 /* ContentView.swift */,
+				D7F463712B272D2500F5C365 /* Views */,
+				D7F463662B2715CB00F5C365 /* Helpers */,
+				D7F463652B2715AD00F5C365 /* App */,
 				D71544712B26F60100C53089 /* Assets.xcassets */,
 				D71544732B26F60100C53089 /* Preview Content */,
 			);
@@ -67,6 +85,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D7F463652B2715AD00F5C365 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D715446D2B26F60000C53089 /* MyPortfolioApp.swift */,
+				D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */,
+				D7F4636D2B272CAC00F5C365 /* TabBarView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D7F463662B2715CB00F5C365 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7F463672B2715EB00F5C365 /* Color+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D7F463712B272D2500F5C365 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4636F2B272CFC00F5C365 /* AboutMe.swift */,
+				D7F463782B272D6000F5C365 /* Passions.swift */,
+				D7F463722B272D3D00F5C365 /* CareerGoals.swift */,
+				D7F463742B272D4B00F5C365 /* Education.swift */,
+				D7F463762B272D5500F5C365 /* Experience.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +125,7 @@
 				D71544662B26F60000C53089 /* Sources */,
 				D71544672B26F60000C53089 /* Frameworks */,
 				D71544682B26F60000C53089 /* Resources */,
+				D7E5A7922B270432000C19F1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = D71544612B26F60000C53089;
+			packageReferences = (
+				D7E5A7912B270417000C19F1 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = D715446B2B26F60000C53089 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */,
 				D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */,
 				D71544722B26F60100C53089 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +185,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D7E5A7922B270432000C19F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D71544662B26F60000C53089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71544702B26F60000C53089 /* ContentView.swift in Sources */,
+				D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */,
+				D7F463702B272CFC00F5C365 /* AboutMe.swift in Sources */,
+				D7F463772B272D5500F5C365 /* Experience.swift in Sources */,
 				D715446E2B26F60000C53089 /* MyPortfolioApp.swift in Sources */,
+				D7F463792B272D6000F5C365 /* Passions.swift in Sources */,
+				D7F4636E2B272CAC00F5C365 /* TabBarView.swift in Sources */,
+				D7F463732B272D3D00F5C365 /* CareerGoals.swift in Sources */,
+				D7F463752B272D4B00F5C365 /* Education.swift in Sources */,
+				D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +420,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7E5A7912B270417000C19F1 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D71544622B26F60000C53089 /* Project object */;
 }
