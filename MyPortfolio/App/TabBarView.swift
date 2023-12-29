@@ -32,7 +32,10 @@ struct TabBarView: View {
             Label("Passions", systemImage: "heart")
           }
       }
-      .tint(Gradient.navyBlueGradident)
+      .tint(Color.tabBarIcon)
+      .onAppear {
+        UITabBar.appearance().backgroundColor = UIColor(Color.monochromeMagic)
+      }
     }
   }
 }

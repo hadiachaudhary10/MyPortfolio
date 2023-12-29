@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AboutMe: View {
   var body: some View {
-    Text("About Me")
+    BaseUI(picture: "AboutMePic", caption1: "Hello,", caption2: "I am Hadia!")
   }
 }
 

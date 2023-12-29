@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
+		D712D8D22B3D72FB0061A733 /* BaseUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BaseUI.swift */; };
+		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
 		D715446E2B26F60000C53089 /* MyPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715446D2B26F60000C53089 /* MyPortfolioApp.swift */; };
 		D71544722B26F60100C53089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71544712B26F60100C53089 /* Assets.xcassets */; };
 		D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71544742B26F60100C53089 /* Preview Assets.xcassets */; };
@@ -22,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
+		D712D8D12B3D72FB0061A733 /* BaseUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUI.swift; sourceTree = "<group>"; };
+		D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
 		D715446A2B26F60000C53089 /* MyPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715446D2B26F60000C53089 /* MyPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPortfolioApp.swift; sourceTree = "<group>"; };
 		D71544712B26F60100C53089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D712D8C72B3D6FEB0061A733 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */,
+				D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D71544612B26F60000C53089 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +84,8 @@
 		D715446C2B26F60000C53089 /* MyPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				D712D8CC2B3D70D00061A733 /* Info.plist */,
+				D712D8C72B3D6FEB0061A733 /* Fonts */,
 				D7F463712B272D2500F5C365 /* Views */,
 				D7F463662B2715CB00F5C365 /* Helpers */,
 				D7F463652B2715AD00F5C365 /* App */,
@@ -99,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D7F463672B2715EB00F5C365 /* Color+Extensions.swift */,
+				D712D8D12B3D72FB0061A733 /* BaseUI.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -178,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */,
+				D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */,
 				D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */,
+				D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */,
 				D71544722B26F60100C53089 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D712D8D22B3D72FB0061A733 /* BaseUI.swift in Sources */,
 				D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */,
 				D7F463702B272CFC00F5C365 /* AboutMe.swift in Sources */,
 				D7F463772B272D5500F5C365 /* Experience.swift in Sources */,
@@ -351,6 +373,7 @@
 				DEVELOPMENT_TEAM = H7NXK4YGF9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -380,6 +403,7 @@
 				DEVELOPMENT_TEAM = H7NXK4YGF9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPortfolio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -40,7 +40,7 @@ struct SplashScreen: View {
             Text("HADIADEV")
               .font(.system(.title))
               .bold()
-              .foregroundColor(Color.babyBlue)
+              .foregroundColor(Color.canvasTintDtl)
           }
           .frame(height: geo.size.height * 0.1)
           .onAppear {
@@ -52,7 +52,7 @@ struct SplashScreen: View {
         }
         .frame(width: geo.size.width, height: geo.size.height)
       }
-      .background(Gradient.navyBlueGradident)
+      .background(Gradient.canvasGradientLtd)
       .onAppear {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
           withAnimation {
