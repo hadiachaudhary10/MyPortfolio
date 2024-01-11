@@ -9,7 +9,10 @@ import SwiftUI
 
 struct AboutMe: View {
   var body: some View {
-    BaseUI(picture: "AboutMePic", caption1: "Hello,", caption2: "I am Hadia!")
+    BaseUI { size in
+      BackgroundUI(picture: "AboutMePic", caption1: "Hello,", caption2: "I am Hadia!", bottomPadding: size.height * 0.1)
+      SheetView(size: size, heading: "About Me 🤔")
+    }
   }
 }
 

@@ -24,7 +24,7 @@ struct SplashScreen: View {
               .frame(width: geo.size.width/1.5, height: geo.size.width/1.5)
               .overlay(
                 Circle()
-                  .stroke(Color.babyBlue, lineWidth: 4)
+                  .stroke(Color.canvasTintDtl, lineWidth: 4)
               )
           }
           .frame(height: geo.size.height * 0.6)

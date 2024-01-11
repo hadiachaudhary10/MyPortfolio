@@ -16,6 +16,7 @@ extension Color {
   static let tabBarIcon: Color = Color("TabBarIcon")
   static let canvasTintDtl: Color = Color("CanvasTintDTL")
   static let canvasTintLtd: Color = Color("CanvasTintLTD")
+  static let sheetColor: Color = Color("Ivory")
 }
 
 extension Gradient {
@@ -24,4 +25,5 @@ extension Gradient {
   static let blueGradident: AnyGradient = Color("Blue").gradient
   static let navyBlueGradident: AnyGradient = Color("NavyBlue").gradient
   static let canvasGradientLtd: AnyGradient = Color("CanvasTintLTD").gradient
+  static let sheetGradient: AnyGradient = Color("Ivory").gradient
 }

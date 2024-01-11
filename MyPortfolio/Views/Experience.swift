@@ -9,7 +9,10 @@ import SwiftUI
 
 struct Experience: View {
   var body: some View {
-    BaseUI(picture: "ExperiencePic", caption1: "My", caption2: "Experience")
+    BaseUI { size in
+      BackgroundUI(picture: "ExperiencePic", caption1: "My", caption2: "Experience", bottomPadding: size.height * 0.1)
+      SheetView(size: size, heading: "Professional Path 👩🏻‍💻")
+    }
   }
 }
 

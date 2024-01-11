@@ -9,7 +9,10 @@ import SwiftUI
 
 struct CareerGoals: View {
   var body: some View {
-    BaseUI(picture: "CareerGoalsPic", caption1: "My", caption2: "Goals")
+    BaseUI { size in
+      BackgroundUI(picture: "CareerGoalsPic", caption1: "My", caption2: "Goals", bottomPadding: size.height * 0.1)
+      SheetView(size: size, heading: "Dreams to Reality 🚀")
+    }
   }
 }
 
