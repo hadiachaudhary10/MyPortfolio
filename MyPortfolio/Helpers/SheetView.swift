@@ -7,10 +7,16 @@
 
 import SwiftUI
 
-struct SheetView: View {
-  @State var size: CGSize
-  @State var heading: String
-  @State var showSheet: Bool = false
+struct SheetView<ContentView: View>: View {
+  @State private var size: CGSize
+  @State private var heading: String
+  @State private var showSheet: Bool = false
+  var content: (CGSize) -> ContentView
+  init(sheetSize: CGSize, sheetHeading: String, @ViewBuilder content: @escaping(CGSize) -> ContentView) {
+    self.content = content
+    self._size = State(initialValue: sheetSize)
+    self._heading = State(initialValue: sheetHeading)
+  }
   var body: some View {
     VStack {
       Spacer()
@@ -26,6 +32,9 @@ struct SheetView: View {
             .padding(.leading)
           Spacer()
         }
+        if showSheet {
+          content(size)
+        }
         Spacer()
       }
       .frame(width: size.width, height: showSheet ? size.height * 0.9 : size.height * 0.1)
@@ -40,11 +49,5 @@ struct SheetView: View {
         }
       }
     )
-  }
-}
-
-struct SheetView_Previews: PreviewProvider {
-  static var previews: some View {
-    SheetView(size: .zero, heading: "Heading")
   }
 }

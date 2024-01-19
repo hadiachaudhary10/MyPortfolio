@@ -11,7 +11,7 @@ struct Passions: View {
   var body: some View {
     BaseUI { size in
       BackgroundUI(picture: "PassionsPic", caption1: "My", caption2: "Passions", bottomPadding: size.height * 0.1)
-      SheetView(size: size, heading: "Versions of me 😁")
+//      SheetView(size: size, heading: "Versions of me 😁")
     }
   }
 }

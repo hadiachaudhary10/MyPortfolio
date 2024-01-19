@@ -11,7 +11,7 @@ struct Education: View {
   var body: some View {
     BaseUI { size in
       BackgroundUI(picture: "EducationPic", caption1: "My", caption2: "Education", bottomPadding: size.height * 0.1)
-      SheetView(size: size, heading: "Scroll up to discover 📚")
+//      SheetView(size: size, heading: "Scroll up to discover 📚")
     }
   }
 }
