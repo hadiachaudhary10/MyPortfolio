@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Charts
 
 struct CareerGoals: View {
   var body: some View {
     BaseUI { size in
       BackgroundUI(picture: "CareerGoalsPic", caption1: "My", caption2: "Goals", bottomPadding: size.height * 0.1)
-//      SheetView(size: size, heading: "Dreams to Reality 🚀")
+      SheetView(sheetSize: size, sheetHeading: "Dreams to Reality 🚀") { _ in
+      }
     }
   }
 }

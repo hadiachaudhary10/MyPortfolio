@@ -11,7 +11,23 @@ struct Experience: View {
   var body: some View {
     BaseUI { size in
       BackgroundUI(picture: "ExperiencePic", caption1: "My", caption2: "Experience", bottomPadding: size.height * 0.1)
-//      SheetView(size: size, heading: "Professional Path 👩🏻‍💻")
+      SheetView(sheetSize: size, sheetHeading: "Professional Path 👩🏻‍💻") { size in
+        ExperienceView(
+          position: "Software Engineer",
+          locAndDur: "Devsinc, Islamabad, PK, Jul 2023 - Present",
+          detailPoints: ["Executed robust API integrations.", "Mentored junior Swift developers.", "Enabled efficient project execution."],
+          size: size)
+        ExperienceView(
+          position: "Associate Software Engineer",
+          locAndDur: "Devsinc, Islamabad, PK, Jul 2022 - Jul 2023",
+          detailPoints: ["Applied Agile for Optimization.", "Generated streamlined, documented code.", "Performed robust testing and debugging."],
+          size: size)
+        ExperienceView(
+          position: "Teacher Assistant",
+          locAndDur: "NUCES, Islamabad, PK, Mar 2021 - Jul 2022",
+          detailPoints: ["For COAL, DS & NLP.", "Handled student queries.", "Evaluated their assignments"],
+          size: size)
+      }
     }
   }
 }
