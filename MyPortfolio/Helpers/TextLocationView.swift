@@ -11,7 +11,7 @@ struct TextLocationView: View {
   let answer: String
   var body: some View {
     VStack(alignment: .leading) {
-      Text("Where do I live")
+      Text("Where do I live?")
         .font(.system(.title3))
         .foregroundColor(.black)
         .padding(.leading)

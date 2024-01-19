@@ -37,7 +37,7 @@ struct SheetView<ContentView: View>: View {
         }
         Spacer()
       }
-      .frame(width: size.width, height: showSheet ? size.height * 0.9 : size.height * 0.1)
+      .frame(width: size.width, height: showSheet ? size.height : size.height * 0.1)
       .background(Gradient.sheetGradient)
       .cornerRadius(25, corners: [.topRight, .topLeft])
     }
