@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExperienceView: View {
+struct ExperienceItemView: View {
   var position: String
   var locAndDur: String
   var detailPoints: [String]
@@ -56,6 +56,6 @@ struct ExperienceView: View {
 
 struct ExperienceView_Previews: PreviewProvider {
   static var previews: some View {
-    ExperienceView(position: "", locAndDur: "", detailPoints: [], size: .zero)
+    ExperienceItemView(position: "", locAndDur: "", detailPoints: [], size: .zero)
   }
 }

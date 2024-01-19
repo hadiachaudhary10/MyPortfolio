@@ -12,7 +12,7 @@ struct Education: View {
     BaseUI { size in
       BackgroundUI(picture: "EducationPic", caption1: "My", caption2: "Education", bottomPadding: size.height * 0.1)
       SheetView(sheetSize: size, sheetHeading: "Scroll up to discover 📚") { _ in
-        
+        EducationGroupView()
       }
     }
   }
