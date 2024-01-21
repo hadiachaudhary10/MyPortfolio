@@ -23,6 +23,8 @@
 		D77936DD2B5AB98C0048E6C5 /* TextLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77936DC2B5AB98C0048E6C5 /* TextLanguageView.swift */; };
 		D798EFC42B5B102000F490E7 /* ExperienceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC32B5B102000F490E7 /* ExperienceItemView.swift */; };
 		D798EFC62B5B2F4B00F490E7 /* EducationGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */; };
+		D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */; };
+		D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC92B5B404900F490E7 /* Constant.swift */; };
 		D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A7932B270473000C19F1 /* .swiftlint.yml */; };
 		D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463672B2715EB00F5C365 /* Color+Extensions.swift */; };
 		D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */; };
@@ -53,6 +55,8 @@
 		D77936DC2B5AB98C0048E6C5 /* TextLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLanguageView.swift; sourceTree = "<group>"; };
 		D798EFC32B5B102000F490E7 /* ExperienceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceItemView.swift; sourceTree = "<group>"; };
 		D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationGroupView.swift; sourceTree = "<group>"; };
+		D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesGroupView.swift; sourceTree = "<group>"; };
+		D798EFC92B5B404900F490E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D7E5A7932B270473000C19F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D7F463672B2715EB00F5C365 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				D715446D2B26F60000C53089 /* MyPortfolioApp.swift */,
 				D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */,
 				D7F4636D2B272CAC00F5C365 /* TabBarView.swift */,
+				D798EFC92B5B404900F490E7 /* Constant.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				D7F463742B272D4B00F5C365 /* Education.swift */,
 				D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */,
 				D7F463762B272D5500F5C365 /* Experience.swift */,
+				D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,9 +280,11 @@
 				D7F463732B272D3D00F5C365 /* CareerGoals.swift in Sources */,
 				D7F463752B272D4B00F5C365 /* Education.swift in Sources */,
 				D77936DD2B5AB98C0048E6C5 /* TextLanguageView.swift in Sources */,
+				D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */,
 				D77936DB2B5AB85A0048E6C5 /* TextLocationView.swift in Sources */,
 				D798EFC42B5B102000F490E7 /* ExperienceItemView.swift in Sources */,
 				D74A69682B4FED31000F7A46 /* TextQuestionView.swift in Sources */,
+				D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */,
 				D712D8E62B3EE8ED0061A733 /* ViewModifiers.swift in Sources */,
 				D712D8E82B3EE8FD0061A733 /* View+Extensions.swift in Sources */,
 				D712D8EE2B3EFC840061A733 /* BaseUI.swift in Sources */,

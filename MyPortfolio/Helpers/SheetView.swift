@@ -21,19 +21,30 @@ struct SheetView<ContentView: View>: View {
     VStack {
       Spacer()
       VStack {
-        Capsule()
-          .fill(Color.secondary)
-          .frame(width: 30, height: 3)
-          .padding(.top, 10)
-        HStack {
-          Text(heading)
-            .font(.custom("Nunito-Bold", size: 20, relativeTo: .title))
-            .foregroundColor(.black)
-            .padding(.leading)
-          Spacer()
+        VStack {
+          Capsule()
+            .fill(Color.secondary)
+            .frame(width: 30, height: 3)
+            .padding(.top, 10)
+          HStack {
+            Text(heading)
+              .font(.custom("Nunito-Bold", size: 20, relativeTo: .title))
+              .foregroundColor(.black)
+              .padding(.leading)
+            Spacer()
+          }
         }
+        .gesture(DragGesture()
+          .onEnded { _ in
+            withAnimation(.linear(duration: 0.5)) {
+              showSheet = showSheet ? false : true
+            }
+          }
+        )
         if showSheet {
-          content(size)
+          ScrollView {
+            content(size)
+          }
         }
         Spacer()
       }
@@ -42,12 +53,5 @@ struct SheetView<ContentView: View>: View {
       .cornerRadius(25, corners: [.topRight, .topLeft])
     }
     .frame(width: size.width, height: size.height)
-    .gesture(DragGesture()
-      .onEnded { _ in
-        withAnimation(.linear(duration: 0.5)) {
-          showSheet = showSheet ? false : true
-        }
-      }
-    )
   }
 }

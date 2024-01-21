@@ -10,15 +10,14 @@ import SwiftUI
 struct EducationGroupView: View {
   var body: some View {
     VStack(alignment: .leading) {
-      HStack {
-        Image(systemName: "graduationcap.circle")
+      HStack(alignment: .center) {
+        Image(systemName: "graduationcap")
           .foregroundColor(.yellow)
-          .font(.system(size: 40))
+          .font(.system(size: 35))
         Text("My education")
           .font(.system(.title))
           .bold()
           .foregroundColor(.black)
-          .padding(.bottom)
         Spacer()
       }
       .padding(.bottom)
