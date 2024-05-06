@@ -26,7 +26,7 @@ struct ExperienceItemView: View {
           Text(locAndDur)
             .font(.system(.subheadline))
             .foregroundColor(.black)
-            .padding(.bottom)
+            .padding(.bottom, 3)
           VStack(alignment: .leading) {
             ForEach(detailPoints, id: \.self) { item in
               HStack {
@@ -37,7 +37,7 @@ struct ExperienceItemView: View {
                   .foregroundColor(.black)
                   .font(.caption)
               }
-              .padding(.bottom)
+              .padding(.all, 2)
             }
           }
           .padding(.trailing)

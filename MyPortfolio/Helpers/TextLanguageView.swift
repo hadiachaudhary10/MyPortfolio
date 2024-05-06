@@ -10,8 +10,11 @@ import SwiftUI
 struct TextLanguageView: View {
   @State var size: CGSize
   let languages: [String: Float]
+  @State private var animationsList: [Bool] = []
+  @State private var setAnimations: Bool = false
   var body: some View {
     let proficiencyBarWidth = size.width * 0.8
+    let sortedLanguages = Array(languages).sorted { $0.value > $1.value }
     VStack(alignment: .leading) {
       Text("What languages do I speak?")
         .font(.system(.title3))
@@ -19,7 +22,9 @@ struct TextLanguageView: View {
         .padding(.leading)
       HStack {
         VStack {
-          ForEach(languages.sorted(by: <), id: \.key) { key, value in
+          ForEach(Array(sortedLanguages.enumerated()), id: \.offset) { index, dict in
+           let key = dict.key
+           let value = dict.value
             VStack(alignment: .leading) {
               Text(key)
                 .font(.system(.subheadline))
@@ -32,9 +37,14 @@ struct TextLanguageView: View {
                   Spacer()
                 }
                 HStack {
-                  Capsule()
-                    .fill(Color.pink)
-                    .frame(width: proficiencyBarWidth * CGFloat(value), height: 5)
+                  if setAnimations {
+                    Capsule()
+                      .fill(Color.pink)
+                      .frame(
+                        width: animationsList[index] ? (proficiencyBarWidth * CGFloat(value)) : 0,
+                           height: 5
+                       )
+                  }
                   Spacer()
                 }
               }
@@ -43,6 +53,19 @@ struct TextLanguageView: View {
           }
         }
         Spacer()
+      }
+      .onAppear {
+        if !setAnimations {
+            animationsList = Array(repeating: false, count: languages.count)
+            setAnimations = true
+            for i in animationsList.indices {
+              DispatchQueue.main.asyncAfter(deadline: .now() + Double(i)) {
+                withAnimation(.linear(duration: 0.5)) {
+                  animationsList[i] = true
+                }
+              }
+            }
+        }
       }
       .padding(.all)
       .background(Color.white)

@@ -19,17 +19,8 @@ struct BackgroundUI: View {
       VStack {
         HStack {
           Spacer()
-          Button {} label: {
-            Text("Hire Me")
-              .fontWeight(.heavy)
-              .padding(.horizontal)
-              .foregroundColor(Color.canvasTintLtd)
-          }
-          .padding(.all)
-          .background(Color.canvasTintDtl)
-          .cornerRadius(25)
+          HireMeButtonView()
         }
-        .padding(.trailing)
         Spacer()
         HStack {
           VStack(alignment: .leading) {

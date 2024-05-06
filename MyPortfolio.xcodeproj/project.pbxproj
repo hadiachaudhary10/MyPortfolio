@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301700142BE83E0D009516B1 /* HireMeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700132BE83E0D009516B1 /* HireMeButtonView.swift */; };
 		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
 		D712D8D22B3D72FB0061A733 /* BackgroundUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */; };
 		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301700132BE83E0D009516B1 /* HireMeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeButtonView.swift; sourceTree = "<group>"; };
 		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
 		D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUI.swift; sourceTree = "<group>"; };
@@ -79,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301700122BE83BBA009516B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D7F463672B2715EB00F5C365 /* Color+Extensions.swift */,
+				D712D8E72B3EE8FD0061A733 /* View+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D712D8C72B3D6FEB0061A733 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +123,7 @@
 				D712D8CC2B3D70D00061A733 /* Info.plist */,
 				D712D8C72B3D6FEB0061A733 /* Fonts */,
 				D7F463712B272D2500F5C365 /* Views */,
+				301700122BE83BBA009516B1 /* Utils */,
 				D7F463662B2715CB00F5C365 /* Helpers */,
 				D7F463652B2715AD00F5C365 /* App */,
 				D71544712B26F60100C53089 /* Assets.xcassets */,
@@ -142,16 +154,15 @@
 		D7F463662B2715CB00F5C365 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D7F463672B2715EB00F5C365 /* Color+Extensions.swift */,
 				D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */,
 				D712D8E52B3EE8ED0061A733 /* ViewModifiers.swift */,
-				D712D8E72B3EE8FD0061A733 /* View+Extensions.swift */,
 				D712D8EB2B3EFA2D0061A733 /* SheetView.swift */,
 				D712D8ED2B3EFC840061A733 /* BaseUI.swift */,
 				D74A69672B4FED31000F7A46 /* TextQuestionView.swift */,
 				D77936DA2B5AB85A0048E6C5 /* TextLocationView.swift */,
 				D77936DC2B5AB98C0048E6C5 /* TextLanguageView.swift */,
 				D798EFC32B5B102000F490E7 /* ExperienceItemView.swift */,
+				301700132BE83E0D009516B1 /* HireMeButtonView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -287,6 +298,7 @@
 				D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */,
 				D712D8E62B3EE8ED0061A733 /* ViewModifiers.swift in Sources */,
 				D712D8E82B3EE8FD0061A733 /* View+Extensions.swift in Sources */,
+				301700142BE83E0D009516B1 /* HireMeButtonView.swift in Sources */,
 				D712D8EE2B3EFC840061A733 /* BaseUI.swift in Sources */,
 				D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */,
 				D798EFC62B5B2F4B00F490E7 /* EducationGroupView.swift in Sources */,

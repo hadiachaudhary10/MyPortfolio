@@ -41,7 +41,7 @@ struct EducationItemView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Text(institutionName)
-        .font(.system(.title3))
+        .font(.title3)
         .foregroundColor(.black)
         .bold()
         .padding(.bottom)
@@ -49,13 +49,13 @@ struct EducationItemView: View {
         ForEach(detailPoints, id: \.self) { item in
           HStack {
             Image(systemName: "circle.fill")
-              .font(.system(size: 8))
+              .font(.system(size: 6))
               .foregroundColor(.black)
             Text(item)
-              .foregroundColor(.black)
+              .foregroundColor(.black.opacity(0.6))
               .font(.caption)
           }
-          .padding(.bottom)
+          .padding(.bottom, 3)
         }
       }
     }

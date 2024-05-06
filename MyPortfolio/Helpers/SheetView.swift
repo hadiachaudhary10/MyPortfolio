@@ -32,6 +32,9 @@ struct SheetView<ContentView: View>: View {
               .foregroundColor(.black)
               .padding(.leading)
             Spacer()
+            if showSheet {
+                  HireMeButtonView()
+            }
           }
         }
         .gesture(DragGesture()

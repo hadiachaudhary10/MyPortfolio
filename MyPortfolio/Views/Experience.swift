@@ -14,12 +14,12 @@ struct Experience: View {
       SheetView(sheetSize: size, sheetHeading: "Professional Path 👩🏻‍💻") { size in
         ExperienceItemView(
           position: "Software Engineer",
-          locAndDur: "Devsinc, Islamabad, PK, Jul 2023 - Present",
+          locAndDur: "Devsinc, US, Jul 2023 - Present",
           detailPoints: ["Executed robust API integrations.", "Mentored junior Swift developers.", "Enabled efficient project execution."],
           size: size)
         ExperienceItemView(
           position: "Associate Software Engineer",
-          locAndDur: "Devsinc, Islamabad, PK, Jul 2022 - Jul 2023",
+          locAndDur: "Devsinc, US, Jul 2022 - Jul 2023",
           detailPoints: ["Applied Agile for Optimization.", "Generated streamlined, documented code.", "Performed robust testing and debugging."],
           size: size)
         ExperienceItemView(

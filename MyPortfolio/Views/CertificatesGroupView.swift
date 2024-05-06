@@ -21,7 +21,9 @@ struct CertificatesGroupView: View {
         Spacer()
       }
       .padding(.bottom)
+      CertificateItemView(certificateName: "Introduction to iOS Development", institutionName: "Meta - Coursera", issueDate: "March 2024", certificateProofEmail: Constant.INTRO_TO_iOS_DEVELOPMENT)
       CertificateItemView(certificateName: "iOS App Capstone", institutionName: "Meta - Coursera", issueDate: "July 2023", certificateProofEmail: Constant.iOS_APP_CAPSTONE)
+      CertificateItemView(certificateName: "Foundations of UX Design", institutionName: "Google - Coursera", issueDate: "March 2024", certificateProofEmail: Constant.FOUNDATIONS_OF_UX)
       CertificateItemView(certificateName: "Jira Fundamentals Badge", institutionName: "Atlassian", issueDate: "July 2023", certificateProofEmail: Constant.JIRA_FUNDAMENTALS_BADGE)
       CertificateItemView(certificateName: "Introduction to Cybersecurity", institutionName: "Cisco", issueDate: "July 2023", certificateProofEmail: Constant.INTRO_TO_CYBERSECURITY)
       CertificateItemView(certificateName: "Crash Course on Python", institutionName: "Google - Coursera", issueDate: "July 2023", certificateProofEmail: Constant.CRASH_COURSE_ON_PYTHON)
@@ -51,14 +53,14 @@ struct CertificateItemView: View {
           .font(.title3)
           .underline()
           .bold()
-          .padding(.bottom, 3)
+          .padding(.bottom, 2)
       }
       Text(institutionName)
-        .foregroundColor(.black)
-        .font(.callout)
+        .foregroundColor(.black.opacity(0.6))
+        .font(.footnote)
       Text(issueDate)
-        .foregroundColor(.black)
-        .font(.callout)
+        .foregroundColor(.black.opacity(0.6))
+        .font(.footnote)
     }
     .padding(.all)
   }
