@@ -16,25 +16,25 @@ struct ExperienceItemView: View {
     VStack {
       HStack {
         Capsule()
-          .fill(Color.pink)
+          .fill(Color.canvasTintDtl)
           .frame(width: 5, height: size.height * 0.2)
         VStack(alignment: .leading) {
           Text(position)
             .font(.system(.title2))
             .bold()
-            .foregroundColor(.black)
+            .foregroundColor(.textColor)
           Text(locAndDur)
             .font(.system(.subheadline))
-            .foregroundColor(.black)
+            .foregroundColor(.textColor)
             .padding(.bottom, 3)
           VStack(alignment: .leading) {
             ForEach(detailPoints, id: \.self) { item in
               HStack {
                 Image(systemName: "circle.fill")
                   .font(.system(size: 8))
-                  .foregroundColor(.black)
+                  .foregroundColor(.canvasTintDtl)
                 Text(item)
-                  .foregroundColor(.black)
+                  .foregroundColor(.textColor)
                   .font(.caption)
               }
               .padding(.all, 2)
@@ -46,7 +46,7 @@ struct ExperienceItemView: View {
         Spacer()
       }
       .padding(.all)
-      .background(Color.white)
+      .background(Color.monochromeMagic)
       .cornerRadius(15)
       .padding(.horizontal)
     }

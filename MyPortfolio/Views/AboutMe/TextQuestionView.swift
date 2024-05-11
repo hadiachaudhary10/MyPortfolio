@@ -1,29 +1,29 @@
 //
-//  TextLocationView.swift
+//  QuestionView.swift
 //  MyPortfolio
 //
-//  Created by Dev on 19/01/2024.
+//  Created by Dev on 11/01/2024.
 //
 
 import SwiftUI
 
-struct TextLocationView: View {
+struct TextQuestionView: View {
+  let question: String
   let answer: String
   var body: some View {
     VStack(alignment: .leading) {
-      Text("Where do I live?")
+      Text(question)
         .font(.system(.title3))
-        .foregroundColor(.black)
+        .foregroundColor(.textColor)
         .padding(.leading)
       HStack {
-        Image(systemName: "mappin.and.ellipse")
         Text(answer)
           .font(.system(.caption))
-          .foregroundColor(.black)
+          .foregroundColor(.textColor)
         Spacer()
       }
       .padding(.all)
-      .background(Color.white)
+      .background(Color.monochromeMagic)
       .cornerRadius(15)
       .padding(.horizontal)
     }
@@ -31,8 +31,8 @@ struct TextLocationView: View {
   }
 }
 
-struct TextLocationView_Previews: PreviewProvider {
+struct TextQuestionView_Previews: PreviewProvider {
   static var previews: some View {
-    TextLocationView(answer: "")
+    TextQuestionView(question: "", answer: "")
   }
 }

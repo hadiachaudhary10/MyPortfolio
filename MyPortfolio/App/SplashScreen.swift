@@ -11,6 +11,7 @@ struct SplashScreen: View {
   @State private var isActive: Bool = false
   @State private var imageFadeInOut: Bool = false
   @State private var titleFadeInOut: Bool = false
+  @StateObject var viewModel: DevViewModel
   var body: some View {
     if isActive {
       TabBarView()
@@ -18,7 +19,7 @@ struct SplashScreen: View {
       GeometryReader { geo in
         VStack {
           VStack {
-            Image("ProfilePic")
+            Image(viewModel.data.imageName)
               .resizable()
               .clipShape(Circle())
               .frame(width: geo.size.width/1.5, height: geo.size.width/1.5)
@@ -37,7 +38,7 @@ struct SplashScreen: View {
           .opacity(imageFadeInOut ? 1 : 0)
           Spacer()
           VStack {
-            Text("HADIADEV")
+            Text(viewModel.data.devName)
               .font(.system(.title))
               .bold()
               .foregroundColor(Color.canvasTintDtl)
@@ -61,11 +62,5 @@ struct SplashScreen: View {
         }
       }
     }
-  }
-}
-
-struct SplashScreen_Previews: PreviewProvider {
-  static var previews: some View {
-    SplashScreen()
   }
 }

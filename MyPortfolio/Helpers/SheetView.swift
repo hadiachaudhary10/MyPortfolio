@@ -11,9 +11,11 @@ struct SheetView<ContentView: View>: View {
   @State private var size: CGSize
   @State private var heading: String
   @State private var showSheet: Bool = false
+  @State private var allowScroll: Bool
   var content: (CGSize) -> ContentView
-  init(sheetSize: CGSize, sheetHeading: String, @ViewBuilder content: @escaping(CGSize) -> ContentView) {
+  init(sheetSize: CGSize, sheetHeading: String, allowScroll: Bool = true, @ViewBuilder content: @escaping(CGSize) -> ContentView) {
     self.content = content
+    self.allowScroll = allowScroll
     self._size = State(initialValue: sheetSize)
     self._heading = State(initialValue: sheetHeading)
   }
@@ -29,7 +31,7 @@ struct SheetView<ContentView: View>: View {
           HStack {
             Text(heading)
               .font(.custom("Nunito-Bold", size: 20, relativeTo: .title))
-              .foregroundColor(.black)
+              .foregroundColor(.textColor)
               .padding(.leading)
             Spacer()
             if showSheet {
@@ -37,22 +39,28 @@ struct SheetView<ContentView: View>: View {
             }
           }
         }
+        .contentShape(Rectangle())
         .gesture(DragGesture()
           .onEnded { _ in
-            withAnimation(.linear(duration: 0.5)) {
+            withAnimation(.easeInOut(duration: 0.5)) {
               showSheet = showSheet ? false : true
+              AppService.shared.showHireButtonInBackground = showSheet ? false : true
             }
           }
         )
         if showSheet {
-          ScrollView {
+          if allowScroll {
+            ScrollView {
+              content(size)
+            }
+          } else {
             content(size)
           }
         }
         Spacer()
       }
       .frame(width: size.width, height: showSheet ? size.height : size.height * 0.1)
-      .background(Gradient.sheetGradient)
+      .background(Color.sheetColor)
       .cornerRadius(25, corners: [.topRight, .topLeft])
     }
     .frame(width: size.width, height: size.height)

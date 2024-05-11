@@ -11,7 +11,7 @@ struct TabBarView: View {
   var body: some View {
     NavigationView {
       TabView {
-        AboutMe()
+        AboutMe(viewModel: AboutMeViewModel())
           .tabItem {
             Label("About Me", systemImage: "person")
           }
@@ -19,15 +19,15 @@ struct TabBarView: View {
           .tabItem {
             Label("Career Goals", systemImage: "trophy")
           }
-        Education()
+        Education(viewModel: EducationViewModel())
           .tabItem {
             Label("Education", systemImage: "graduationcap")
           }
-        Experience()
+        Experience(viewModel: ExperienceViewModel())
           .tabItem {
             Label("Experience", systemImage: "medal")
           }
-        Passions()
+        Passion(viewModel: PassionViewModel())
           .tabItem {
             Label("Passions", systemImage: "heart")
           }
@@ -37,11 +37,5 @@ struct TabBarView: View {
         UITabBar.appearance().backgroundColor = UIColor(Color.monochromeMagic)
       }
     }
-  }
-}
-
-struct TabBarView_Previews: PreviewProvider {
-  static var previews: some View {
-    TabBarView()
   }
 }

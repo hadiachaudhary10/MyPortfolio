@@ -16,7 +16,11 @@ extension Color {
   static let tabBarIcon: Color = Color("TabBarIcon")
   static let canvasTintDtl: Color = Color("CanvasTintDTL")
   static let canvasTintLtd: Color = Color("CanvasTintLTD")
-  static let sheetColor: Color = Color("Ivory")
+  static let ivoryColor: Color = Color("Ivory")
+  static let hireMeTextDTL: Color = Color("HireMeTextDTL")
+  static let hireMeTextLTD: Color = Color("HireMeTextLTD")
+  static let sheetColor: Color = Color("SheetColor")
+  static let textColor: Color = Color("TextColor")
 }
 
 extension Gradient {

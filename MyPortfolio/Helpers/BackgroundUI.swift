@@ -12,14 +12,20 @@ struct BackgroundUI: View {
   var caption1: String
   var caption2: String
   var bottomPadding: CGFloat
+  
   @State var isShowingCaption1: Bool = false
   @State var isShowingCaption2: Bool = false
+  
+  @StateObject var appService = AppService.shared
+  @Environment(\.colorScheme) var colorScheme
   var body: some View {
    GeometryReader { geo in
       VStack {
         HStack {
           Spacer()
-          HireMeButtonView()
+          if appService.showHireButtonInBackground {
+            HireMeButtonView()
+          }
         }
         Spacer()
         HStack {
@@ -48,9 +54,10 @@ struct BackgroundUI: View {
             .resizable()
             .scaledToFill()
             .edgesIgnoringSafeArea(.all)
+            .opacity(colorScheme == .dark ? 0.7 : 1)
         }
       )
-      .background(Gradient.canvasGradientLtd)
+      .background(picture == "AboutMePic" ? Color.canvasTintLtd : Color.clear)
       .frame(width: geo.size.width, height: geo.size.height)
     }
    .onAppear {
@@ -69,11 +76,5 @@ struct BackgroundUI: View {
      isShowingCaption1 = false
      isShowingCaption2 = false
    }
-  }
-}
-
-struct BackgroundUI_Previews: PreviewProvider {
-  static var previews: some View {
-    BackgroundUI(picture: "", caption1: "", caption2: "", bottomPadding: 0)
   }
 }

@@ -18,7 +18,7 @@ struct TextLanguageView: View {
     VStack(alignment: .leading) {
       Text("What languages do I speak?")
         .font(.system(.title3))
-        .foregroundColor(.black)
+        .foregroundColor(.textColor)
         .padding(.leading)
       HStack {
         VStack {
@@ -28,18 +28,18 @@ struct TextLanguageView: View {
             VStack(alignment: .leading) {
               Text(key)
                 .font(.system(.subheadline))
-                .foregroundColor(.black)
+                .foregroundColor(.textColor)
               ZStack {
                 HStack {
                   Capsule()
-                    .fill(Color.secondary)
+                    .fill(Color.canvasTintDtl.opacity(0.5))
                     .frame(width: proficiencyBarWidth, height: 5)
                   Spacer()
                 }
                 HStack {
                   if setAnimations {
                     Capsule()
-                      .fill(Color.pink)
+                      .fill(Color.canvasTintDtl)
                       .frame(
                         width: animationsList[index] ? (proficiencyBarWidth * CGFloat(value)) : 0,
                            height: 5
@@ -55,7 +55,8 @@ struct TextLanguageView: View {
         Spacer()
       }
       .onAppear {
-        if !setAnimations {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+          if !setAnimations {
             animationsList = Array(repeating: false, count: languages.count)
             setAnimations = true
             for i in animationsList.indices {
@@ -65,10 +66,11 @@ struct TextLanguageView: View {
                 }
               }
             }
+          }
         }
       }
       .padding(.all)
-      .background(Color.white)
+      .background(Color.monochromeMagic)
       .cornerRadius(15)
       .padding(.horizontal)
     }

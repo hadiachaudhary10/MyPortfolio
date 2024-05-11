@@ -13,15 +13,11 @@ struct HireMeButtonView: View {
           Text("Hire Me")
             .fontWeight(.heavy)
             .padding(.horizontal)
-            .foregroundColor(Color.canvasTintLtd)
+            .foregroundColor(Color.hireMeTextDTL)
         }
         .padding(.all, 10)
-        .background(Color.canvasTintDtl)
+        .background(Color.hireMeTextLTD)
         .cornerRadius(25)
         .padding(.trailing)
     }
-}
-
-#Preview {
-    HireMeButtonView()
 }
