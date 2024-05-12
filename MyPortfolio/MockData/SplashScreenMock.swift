@@ -7,9 +7,9 @@
 
 import Foundation
 
-extension DevModel {
-  static func mock() -> DevModel {
-    return DevModel(
+extension SplashScreenModel {
+  static func mock() -> SplashScreenModel {
+    return SplashScreenModel(
       imageName: "ProfilePic",
       devName: "HADIADEV"
     )

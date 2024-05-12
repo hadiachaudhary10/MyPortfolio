@@ -11,7 +11,7 @@ struct SplashScreen: View {
   @State private var isActive: Bool = false
   @State private var imageFadeInOut: Bool = false
   @State private var titleFadeInOut: Bool = false
-  @StateObject var viewModel: DevViewModel
+  @StateObject var viewModel: SplashScreenViewModel
   var body: some View {
     if isActive {
       TabBarView()

@@ -18,14 +18,17 @@
 		301700272BEF5622009516B1 /* EducationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700262BEF5622009516B1 /* EducationModel.swift */; };
 		301700292BEF5761009516B1 /* EducationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700282BEF5761009516B1 /* EducationViewModel.swift */; };
 		3017002B2BEF5785009516B1 /* EducationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017002A2BEF5785009516B1 /* EducationMock.swift */; };
-		3017002D2BEF63BC009516B1 /* DevModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017002C2BEF63BC009516B1 /* DevModel.swift */; };
-		3017002F2BEF63E5009516B1 /* DevModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017002E2BEF63E5009516B1 /* DevModelMock.swift */; };
-		301700312BEF6443009516B1 /* DevViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700302BEF6443009516B1 /* DevViewModel.swift */; };
+		3017002D2BEF63BC009516B1 /* SplashScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017002C2BEF63BC009516B1 /* SplashScreenModel.swift */; };
+		3017002F2BEF63E5009516B1 /* SplashScreenMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017002E2BEF63E5009516B1 /* SplashScreenMock.swift */; };
+		301700312BEF6443009516B1 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700302BEF6443009516B1 /* SplashScreenViewModel.swift */; };
 		301700332BEF64BA009516B1 /* PassionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700322BEF64BA009516B1 /* PassionModel.swift */; };
 		301700352BEF655B009516B1 /* PassionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700342BEF655B009516B1 /* PassionViewModel.swift */; };
 		301700372BEF657A009516B1 /* PassionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700362BEF657A009516B1 /* PassionMock.swift */; };
 		3017003D2BEFC235009516B1 /* MyVersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017003C2BEFC235009516B1 /* MyVersionView.swift */; };
 		301700402BEFC2D1009516B1 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3017003F2BEFC2D1009516B1 /* AppService.swift */; };
+		301700442BF02F04009516B1 /* HireMeMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700432BF02F04009516B1 /* HireMeMenuModel.swift */; };
+		301700462BF030E3009516B1 /* HireMeMenuModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */; };
+		301700492BF03215009516B1 /* HireMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700482BF03215009516B1 /* HireMeViewModel.swift */; };
 		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
 		D712D8D22B3D72FB0061A733 /* BackgroundUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */; };
 		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
@@ -67,14 +70,17 @@
 		301700262BEF5622009516B1 /* EducationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationModel.swift; sourceTree = "<group>"; };
 		301700282BEF5761009516B1 /* EducationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewModel.swift; sourceTree = "<group>"; };
 		3017002A2BEF5785009516B1 /* EducationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationMock.swift; sourceTree = "<group>"; };
-		3017002C2BEF63BC009516B1 /* DevModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevModel.swift; sourceTree = "<group>"; };
-		3017002E2BEF63E5009516B1 /* DevModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevModelMock.swift; sourceTree = "<group>"; };
-		301700302BEF6443009516B1 /* DevViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevViewModel.swift; sourceTree = "<group>"; };
+		3017002C2BEF63BC009516B1 /* SplashScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenModel.swift; sourceTree = "<group>"; };
+		3017002E2BEF63E5009516B1 /* SplashScreenMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenMock.swift; sourceTree = "<group>"; };
+		301700302BEF6443009516B1 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
 		301700322BEF64BA009516B1 /* PassionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionModel.swift; sourceTree = "<group>"; };
 		301700342BEF655B009516B1 /* PassionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionViewModel.swift; sourceTree = "<group>"; };
 		301700362BEF657A009516B1 /* PassionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionMock.swift; sourceTree = "<group>"; };
 		3017003C2BEFC235009516B1 /* MyVersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVersionView.swift; sourceTree = "<group>"; };
 		3017003F2BEFC2D1009516B1 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		301700432BF02F04009516B1 /* HireMeMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModel.swift; sourceTree = "<group>"; };
+		301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModelMock.swift; sourceTree = "<group>"; };
+		301700482BF03215009516B1 /* HireMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeViewModel.swift; sourceTree = "<group>"; };
 		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
 		D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUI.swift; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 		301700122BE83BBA009516B1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D798EFC92B5B404900F490E7 /* Constant.swift */,
 				D7F463672B2715EB00F5C365 /* Color+Extensions.swift */,
 				D712D8E72B3EE8FD0061A733 /* View+Extensions.swift */,
 			);
@@ -132,22 +139,11 @@
 				301700182BEF03B4009516B1 /* AboutMeModel.swift */,
 				3017001A2BEF0506009516B1 /* ExperienceModel.swift */,
 				301700262BEF5622009516B1 /* EducationModel.swift */,
-				3017002C2BEF63BC009516B1 /* DevModel.swift */,
+				3017002C2BEF63BC009516B1 /* SplashScreenModel.swift */,
 				301700322BEF64BA009516B1 /* PassionModel.swift */,
+				301700432BF02F04009516B1 /* HireMeMenuModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		3017001E2BEF06B1009516B1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				3017001C2BEF06AB009516B1 /* AboutMeViewModel.swift */,
-				301700242BEF096A009516B1 /* ExperienceViewModel.swift */,
-				301700282BEF5761009516B1 /* EducationViewModel.swift */,
-				301700302BEF6443009516B1 /* DevViewModel.swift */,
-				301700342BEF655B009516B1 /* PassionViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		3017001F2BEF091F009516B1 /* MockData */ = {
@@ -156,8 +152,9 @@
 				301700202BEF0927009516B1 /* AboutMeMock.swift */,
 				301700222BEF094A009516B1 /* ExperienceMock.swift */,
 				3017002A2BEF5785009516B1 /* EducationMock.swift */,
-				3017002E2BEF63E5009516B1 /* DevModelMock.swift */,
+				3017002E2BEF63E5009516B1 /* SplashScreenMock.swift */,
 				301700362BEF657A009516B1 /* PassionMock.swift */,
+				301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -165,6 +162,7 @@
 		301700382BEFC1D9009516B1 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				3017001C2BEF06AB009516B1 /* AboutMeViewModel.swift */,
 				D7F4636F2B272CFC00F5C365 /* AboutMe.swift */,
 				D74A69672B4FED31000F7A46 /* TextQuestionView.swift */,
 				D77936DA2B5AB85A0048E6C5 /* TextLocationView.swift */,
@@ -176,6 +174,7 @@
 		301700392BEFC1F5009516B1 /* Education */ = {
 			isa = PBXGroup;
 			children = (
+				301700282BEF5761009516B1 /* EducationViewModel.swift */,
 				D7F463742B272D4B00F5C365 /* Education.swift */,
 				D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */,
 				D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */,
@@ -187,6 +186,7 @@
 		3017003A2BEFC209009516B1 /* Experience */ = {
 			isa = PBXGroup;
 			children = (
+				301700242BEF096A009516B1 /* ExperienceViewModel.swift */,
 				D7F463762B272D5500F5C365 /* Experience.swift */,
 				D798EFC32B5B102000F490E7 /* ExperienceItemView.swift */,
 			);
@@ -196,6 +196,7 @@
 		3017003B2BEFC220009516B1 /* Passion */ = {
 			isa = PBXGroup;
 			children = (
+				301700342BEF655B009516B1 /* PassionViewModel.swift */,
 				D7F463782B272D6000F5C365 /* Passion.swift */,
 				3017003C2BEFC235009516B1 /* MyVersionView.swift */,
 			);
@@ -210,12 +211,30 @@
 			path = CareerGoals;
 			sourceTree = "<group>";
 		};
-		301700412BEFC2D8009516B1 /* Service */ = {
+		301700412BEFC2D8009516B1 /* App Service */ = {
 			isa = PBXGroup;
 			children = (
 				3017003F2BEFC2D1009516B1 /* AppService.swift */,
 			);
-			path = Service;
+			path = "App Service";
+			sourceTree = "<group>";
+		};
+		301700422BF02C63009516B1 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */,
+				301700302BEF6443009516B1 /* SplashScreenViewModel.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		301700472BF031FF009516B1 /* HireMe */ = {
+			isa = PBXGroup;
+			children = (
+				301700132BE83E0D009516B1 /* HireMeButtonView.swift */,
+				301700482BF03215009516B1 /* HireMeViewModel.swift */,
+			);
+			path = HireMe;
 			sourceTree = "<group>";
 		};
 		D712D8C72B3D6FEB0061A733 /* Fonts */ = {
@@ -250,13 +269,12 @@
 			children = (
 				D712D8CC2B3D70D00061A733 /* Info.plist */,
 				D712D8C72B3D6FEB0061A733 /* Fonts */,
-				301700412BEFC2D8009516B1 /* Service */,
+				301700412BEFC2D8009516B1 /* App Service */,
 				3017001F2BEF091F009516B1 /* MockData */,
-				3017001E2BEF06B1009516B1 /* ViewModel */,
 				301700172BEF03A0009516B1 /* Model */,
-				D7F463712B272D2500F5C365 /* Views */,
+				D7F463712B272D2500F5C365 /* Features */,
 				301700122BE83BBA009516B1 /* Utils */,
-				D7F463662B2715CB00F5C365 /* Helpers */,
+				D7F463662B2715CB00F5C365 /* Helper Views */,
 				D7F463652B2715AD00F5C365 /* App */,
 				D71544712B26F60100C53089 /* Assets.xcassets */,
 				D71544732B26F60100C53089 /* Preview Content */,
@@ -276,35 +294,34 @@
 			isa = PBXGroup;
 			children = (
 				D715446D2B26F60000C53089 /* MyPortfolioApp.swift */,
-				D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */,
 				D7F4636D2B272CAC00F5C365 /* TabBarView.swift */,
-				D798EFC92B5B404900F490E7 /* Constant.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		D7F463662B2715CB00F5C365 /* Helpers */ = {
+		D7F463662B2715CB00F5C365 /* Helper Views */ = {
 			isa = PBXGroup;
 			children = (
 				D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */,
 				D712D8E52B3EE8ED0061A733 /* ViewModifiers.swift */,
 				D712D8EB2B3EFA2D0061A733 /* SheetView.swift */,
 				D712D8ED2B3EFC840061A733 /* BaseUI.swift */,
-				301700132BE83E0D009516B1 /* HireMeButtonView.swift */,
 			);
-			path = Helpers;
+			path = "Helper Views";
 			sourceTree = "<group>";
 		};
-		D7F463712B272D2500F5C365 /* Views */ = {
+		D7F463712B272D2500F5C365 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				301700472BF031FF009516B1 /* HireMe */,
+				301700422BF02C63009516B1 /* Splash Screen */,
 				3017003E2BEFC244009516B1 /* CareerGoals */,
 				3017003B2BEFC220009516B1 /* Passion */,
 				3017003A2BEFC209009516B1 /* Experience */,
 				301700392BEFC1F5009516B1 /* Education */,
 				301700382BEFC1D9009516B1 /* AboutMe */,
 			);
-			path = Views;
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,21 +439,24 @@
 				D77936DD2B5AB98C0048E6C5 /* TextLanguageView.swift in Sources */,
 				D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */,
 				301700332BEF64BA009516B1 /* PassionModel.swift in Sources */,
-				3017002F2BEF63E5009516B1 /* DevModelMock.swift in Sources */,
+				3017002F2BEF63E5009516B1 /* SplashScreenMock.swift in Sources */,
 				301700402BEFC2D1009516B1 /* AppService.swift in Sources */,
 				301700192BEF03B4009516B1 /* AboutMeModel.swift in Sources */,
 				301700212BEF0927009516B1 /* AboutMeMock.swift in Sources */,
 				301700232BEF094A009516B1 /* ExperienceMock.swift in Sources */,
-				3017002D2BEF63BC009516B1 /* DevModel.swift in Sources */,
+				301700442BF02F04009516B1 /* HireMeMenuModel.swift in Sources */,
+				301700462BF030E3009516B1 /* HireMeMenuModelMock.swift in Sources */,
+				3017002D2BEF63BC009516B1 /* SplashScreenModel.swift in Sources */,
 				301700372BEF657A009516B1 /* PassionMock.swift in Sources */,
 				D77936DB2B5AB85A0048E6C5 /* TextLocationView.swift in Sources */,
 				D798EFC42B5B102000F490E7 /* ExperienceItemView.swift in Sources */,
+				301700492BF03215009516B1 /* HireMeViewModel.swift in Sources */,
 				3017002B2BEF5785009516B1 /* EducationMock.swift in Sources */,
 				D74A69682B4FED31000F7A46 /* TextQuestionView.swift in Sources */,
 				301700352BEF655B009516B1 /* PassionViewModel.swift in Sources */,
 				D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */,
 				D712D8E62B3EE8ED0061A733 /* ViewModifiers.swift in Sources */,
-				301700312BEF6443009516B1 /* DevViewModel.swift in Sources */,
+				301700312BEF6443009516B1 /* SplashScreenViewModel.swift in Sources */,
 				D712D8E82B3EE8FD0061A733 /* View+Extensions.swift in Sources */,
 				301700142BE83E0D009516B1 /* HireMeButtonView.swift in Sources */,
 				3017003D2BEFC235009516B1 /* MyVersionView.swift in Sources */,
@@ -574,7 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = H7NXK4YGF9;
+				DEVELOPMENT_TEAM = L85U73U3RY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyPortfolio/Info.plist;
@@ -604,7 +624,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = H7NXK4YGF9;
+				DEVELOPMENT_TEAM = L85U73U3RY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyPortfolio/Info.plist;

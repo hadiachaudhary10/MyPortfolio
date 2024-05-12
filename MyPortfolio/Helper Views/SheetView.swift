@@ -35,7 +35,7 @@ struct SheetView<ContentView: View>: View {
               .padding(.leading)
             Spacer()
             if showSheet {
-                  HireMeButtonView()
+              HireMeButtonView(viewModel: HireMeViewModel())
             }
           }
         }

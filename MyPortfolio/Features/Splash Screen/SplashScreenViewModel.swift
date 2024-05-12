@@ -7,10 +7,10 @@
 
 import Foundation
 
-class DevViewModel: ObservableObject {
-  @Published var data: DevModel
+class SplashScreenViewModel: ObservableObject {
+  @Published var data: SplashScreenModel
   
   init() {
-    self.data = DevModel.mock()
+    self.data = SplashScreenModel.mock()
   }
 }

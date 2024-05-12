@@ -24,7 +24,7 @@ struct BackgroundUI: View {
         HStack {
           Spacer()
           if appService.showHireButtonInBackground {
-            HireMeButtonView()
+            HireMeButtonView(viewModel: HireMeViewModel())
           }
         }
         Spacer()
@@ -54,10 +54,10 @@ struct BackgroundUI: View {
             .resizable()
             .scaledToFill()
             .edgesIgnoringSafeArea(.all)
-            .opacity(colorScheme == .dark ? 0.7 : 1)
         }
+         .background(picture == "AboutMePic" ? Color.canvasTintLtd : Color.clear)
+         .opacity(colorScheme == .dark ? 0.7 : 1)
       )
-      .background(picture == "AboutMePic" ? Color.canvasTintLtd : Color.clear)
       .frame(width: geo.size.width, height: geo.size.height)
     }
    .onAppear {

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DevModel {
+struct SplashScreenModel {
   let imageName: String
   let devName: String
 }

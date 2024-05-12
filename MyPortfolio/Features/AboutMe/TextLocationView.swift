@@ -17,7 +17,7 @@ struct TextLocationView: View {
         .padding(.leading)
       HStack {
         Image(systemName: "mappin.and.ellipse")
-          .foregroundColor(.black)
+          .foregroundColor(.textColor)
         Text(answer)
           .font(.system(.caption))
           .foregroundColor(.textColor)
