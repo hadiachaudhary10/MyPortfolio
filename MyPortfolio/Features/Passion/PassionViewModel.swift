@@ -9,7 +9,7 @@ import Foundation
 
 class PassionViewModel: ObservableObject {
   @Published var data: PassionModel
-  
+
   init() {
     self.data = PassionModel.mock()
   }

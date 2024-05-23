@@ -25,6 +25,3 @@ struct ContactMeOptionsModel: Hashable {
   let data: String
   let type: ContactAction
 }
-
-
-

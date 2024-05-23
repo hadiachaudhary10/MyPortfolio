@@ -9,7 +9,7 @@ import Foundation
 
 class EducationViewModel: ObservableObject {
   @Published var data: EducationModel
-  
+
   init() {
     self.data = EducationModel.mock()
   }

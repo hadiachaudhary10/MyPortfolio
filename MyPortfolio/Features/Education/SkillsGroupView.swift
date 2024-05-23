@@ -24,7 +24,9 @@ struct SkillsGroupView: View {
       .padding(.bottom)
       VStack {
         ForEach(skillsList, id: \.self) { skilltem in
-          SkillItemView(skillName:skilltem.skillName, skillValue: skilltem.skillValue)
+          SkillItemView(
+            skillName: skilltem.skillName,
+            skillValue: skilltem.skillValue)
         }
       }
       .padding(.all)

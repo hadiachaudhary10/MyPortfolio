@@ -45,7 +45,7 @@ struct HireMeButtonView: View {
             }
           }
         }
-      }      
+      }
     } label: {
       Text("Hire Me")
         .fontWeight(.heavy)
@@ -57,7 +57,7 @@ struct HireMeButtonView: View {
     .cornerRadius(25)
     .padding(.trailing)
   }
-  
+
   private func openURL(urlString: String) {
     if let url = URL(string: urlString) {
       if UIApplication.shared.canOpenURL(url) {
@@ -67,17 +67,17 @@ struct HireMeButtonView: View {
       }
     }
   }
-  
+
   private func copyNumber(number: String) {
      UIPasteboard.general.string = number
   }
-  
+
   private func sendEmail(email: String) {
     if let email = email.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
       openURL(urlString: "mailTo:\(email)")
     }
   }
-  
+
   private func callNumber(number: String) {
     openURL(urlString: "tel:\(number)")
   }

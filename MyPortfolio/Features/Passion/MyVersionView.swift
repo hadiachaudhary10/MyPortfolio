@@ -27,4 +27,3 @@ struct MyVersionView: View {
     .padding(.horizontal)
   }
 }
-

@@ -12,10 +12,10 @@ struct BackgroundUI: View {
   var caption1: String
   var caption2: String
   var bottomPadding: CGFloat
-  
+
   @State var isShowingCaption1: Bool = false
   @State var isShowingCaption2: Bool = false
-  
+
   @StateObject var appService = AppService.shared
   @Environment(\.colorScheme) var colorScheme
   var body: some View {

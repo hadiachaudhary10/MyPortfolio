@@ -15,7 +15,7 @@ struct TabBarView: View {
           .tabItem {
             Label("About Me", systemImage: "person")
           }
-        CareerGoals()
+          CareerGoals(viewModel: CareerGoalsViewModel())
           .tabItem {
             Label("Career Goals", systemImage: "trophy")
           }

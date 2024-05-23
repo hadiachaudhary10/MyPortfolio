@@ -48,6 +48,14 @@
 		D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */; };
 		D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC92B5B404900F490E7 /* Constant.swift */; };
 		D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A7932B270473000C19F1 /* .swiftlint.yml */; };
+		D7E718C12BFFAF8300CC8605 /* CareerGoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */; };
+		D7E718C72BFFB31100CC8605 /* ChatBubbleArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */; };
+		D7E718C92BFFB35000CC8605 /* CareerGoalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */; };
+		D7E718CB2BFFB78A00CC8605 /* CareerGoalsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718CA2BFFB78A00CC8605 /* CareerGoalsViewModel.swift */; };
+		D7E718CD2BFFD62900CC8605 /* Aims.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718CC2BFFD62900CC8605 /* Aims.swift */; };
+		D7E718CF2BFFD64E00CC8605 /* Durations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718CE2BFFD64E00CC8605 /* Durations.swift */; };
+		D7E718D12BFFD68900CC8605 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D02BFFD68900CC8605 /* Points.swift */; };
+		D7E718D32BFFD6A100CC8605 /* CurvedPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D22BFFD6A100CC8605 /* CurvedPathView.swift */; };
 		D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463672B2715EB00F5C365 /* Color+Extensions.swift */; };
 		D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */; };
 		D7F4636E2B272CAC00F5C365 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636D2B272CAC00F5C365 /* TabBarView.swift */; };
@@ -102,6 +110,14 @@
 		D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesGroupView.swift; sourceTree = "<group>"; };
 		D798EFC92B5B404900F490E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D7E5A7932B270473000C19F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsModel.swift; sourceTree = "<group>"; };
+		D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleArrowShape.swift; sourceTree = "<group>"; };
+		D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsMock.swift; sourceTree = "<group>"; };
+		D7E718CA2BFFB78A00CC8605 /* CareerGoalsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsViewModel.swift; sourceTree = "<group>"; };
+		D7E718CC2BFFD62900CC8605 /* Aims.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aims.swift; sourceTree = "<group>"; };
+		D7E718CE2BFFD64E00CC8605 /* Durations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Durations.swift; sourceTree = "<group>"; };
+		D7E718D02BFFD68900CC8605 /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		D7E718D22BFFD6A100CC8605 /* CurvedPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedPathView.swift; sourceTree = "<group>"; };
 		D7F463672B2715EB00F5C365 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		D7F4636D2B272CAC00F5C365 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -142,6 +158,7 @@
 				3017002C2BEF63BC009516B1 /* SplashScreenModel.swift */,
 				301700322BEF64BA009516B1 /* PassionModel.swift */,
 				301700432BF02F04009516B1 /* HireMeMenuModel.swift */,
+				D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +172,7 @@
 				3017002E2BEF63E5009516B1 /* SplashScreenMock.swift */,
 				301700362BEF657A009516B1 /* PassionMock.swift */,
 				301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */,
+				D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -207,6 +225,11 @@
 			isa = PBXGroup;
 			children = (
 				D7F463722B272D3D00F5C365 /* CareerGoals.swift */,
+				D7E718CA2BFFB78A00CC8605 /* CareerGoalsViewModel.swift */,
+				D7E718CC2BFFD62900CC8605 /* Aims.swift */,
+				D7E718CE2BFFD64E00CC8605 /* Durations.swift */,
+				D7E718D02BFFD68900CC8605 /* Points.swift */,
+				D7E718D22BFFD6A100CC8605 /* CurvedPathView.swift */,
 			);
 			path = CareerGoals;
 			sourceTree = "<group>";
@@ -306,6 +329,7 @@
 				D712D8E52B3EE8ED0061A733 /* ViewModifiers.swift */,
 				D712D8EB2B3EFA2D0061A733 /* SheetView.swift */,
 				D712D8ED2B3EFC840061A733 /* BaseUI.swift */,
+				D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */,
 			);
 			path = "Helper Views";
 			sourceTree = "<group>";
@@ -429,11 +453,13 @@
 				301700162BEEE8A2009516B1 /* SkillsGroupView.swift in Sources */,
 				3017001B2BEF0506009516B1 /* ExperienceModel.swift in Sources */,
 				D7F463772B272D5500F5C365 /* Experience.swift in Sources */,
+				D7E718C92BFFB35000CC8605 /* CareerGoalsMock.swift in Sources */,
 				D715446E2B26F60000C53089 /* MyPortfolioApp.swift in Sources */,
 				D712D8EC2B3EFA2D0061A733 /* SheetView.swift in Sources */,
 				3017001D2BEF06AB009516B1 /* AboutMeViewModel.swift in Sources */,
 				D7F463792B272D6000F5C365 /* Passion.swift in Sources */,
 				D7F4636E2B272CAC00F5C365 /* TabBarView.swift in Sources */,
+				D7E718CF2BFFD64E00CC8605 /* Durations.swift in Sources */,
 				D7F463732B272D3D00F5C365 /* CareerGoals.swift in Sources */,
 				D7F463752B272D4B00F5C365 /* Education.swift in Sources */,
 				D77936DD2B5AB98C0048E6C5 /* TextLanguageView.swift in Sources */,
@@ -445,17 +471,23 @@
 				301700212BEF0927009516B1 /* AboutMeMock.swift in Sources */,
 				301700232BEF094A009516B1 /* ExperienceMock.swift in Sources */,
 				301700442BF02F04009516B1 /* HireMeMenuModel.swift in Sources */,
+				D7E718CB2BFFB78A00CC8605 /* CareerGoalsViewModel.swift in Sources */,
 				301700462BF030E3009516B1 /* HireMeMenuModelMock.swift in Sources */,
 				3017002D2BEF63BC009516B1 /* SplashScreenModel.swift in Sources */,
 				301700372BEF657A009516B1 /* PassionMock.swift in Sources */,
+				D7E718D12BFFD68900CC8605 /* Points.swift in Sources */,
 				D77936DB2B5AB85A0048E6C5 /* TextLocationView.swift in Sources */,
 				D798EFC42B5B102000F490E7 /* ExperienceItemView.swift in Sources */,
 				301700492BF03215009516B1 /* HireMeViewModel.swift in Sources */,
 				3017002B2BEF5785009516B1 /* EducationMock.swift in Sources */,
+				D7E718CD2BFFD62900CC8605 /* Aims.swift in Sources */,
 				D74A69682B4FED31000F7A46 /* TextQuestionView.swift in Sources */,
+				D7E718C72BFFB31100CC8605 /* ChatBubbleArrowShape.swift in Sources */,
 				301700352BEF655B009516B1 /* PassionViewModel.swift in Sources */,
+				D7E718C12BFFAF8300CC8605 /* CareerGoalsModel.swift in Sources */,
 				D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */,
 				D712D8E62B3EE8ED0061A733 /* ViewModifiers.swift in Sources */,
+				D7E718D32BFFD6A100CC8605 /* CurvedPathView.swift in Sources */,
 				301700312BEF6443009516B1 /* SplashScreenViewModel.swift in Sources */,
 				D712D8E82B3EE8FD0061A733 /* View+Extensions.swift in Sources */,
 				301700142BE83E0D009516B1 /* HireMeButtonView.swift in Sources */,

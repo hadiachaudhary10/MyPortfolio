@@ -23,7 +23,11 @@ struct CertificatesGroupView: View {
       }
       .padding(.bottom)
       ForEach(certificatesList, id: \.self) { certificateItem in
-        CertificateItemView(certificateName: certificateItem.certificateName, institutionName: certificateItem.institutionName, issueDate: certificateItem.issueDate, certificateProofEmail: certificateItem.certificateProofEmail)
+        CertificateItemView(
+            certificateName: certificateItem.certificateName,
+            institutionName: certificateItem.institutionName,
+            issueDate: certificateItem.issueDate,
+            certificateProofEmail: certificateItem.certificateProofEmail)
       }
     }
     .padding(.all)

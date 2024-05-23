@@ -59,10 +59,10 @@ struct TextLanguageView: View {
           if !setAnimations {
             animationsList = Array(repeating: false, count: languages.count)
             setAnimations = true
-            for i in animationsList.indices {
-              DispatchQueue.main.asyncAfter(deadline: .now() + Double(i)) {
+            for index in animationsList.indices {
+              DispatchQueue.main.asyncAfter(deadline: .now() + Double(index)) {
                 withAnimation(.linear(duration: 0.5)) {
-                  animationsList[i] = true
+                  animationsList[index] = true
                 }
               }
             }
