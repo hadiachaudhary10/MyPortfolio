@@ -21,4 +21,5 @@ struct Constant {
   static let LINKEDIN_PROFILE = "https://www.linkedin.com/in/hadiachaudhary10/"
   static let MY_EMAIL = "chaudharyhadia10@gmail.com"
   static let MY_Number = "923345119944"
+    static let GITHUB_PROFILE = "https://github.com/hadiachaudhary10"
 }

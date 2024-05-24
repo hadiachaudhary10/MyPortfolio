@@ -13,14 +13,15 @@ extension PassionModel {
       imageName: "PassionsPic",
       myVersions: [
         MyVersionModel(
+          imageName: "AdventurousGirl",
+          descr: "I love taking a break from my usual routine when I'm feeling overwhelmed and going on a vacation to recharge myself. ❄️🤩"),
+        MyVersionModel(
           imageName: "CatMom",
-          descr: "As Simba's cat mom, my world revolves around whiskers, warmth, and a whole lot of love. 😻🫶"),
+          descr: "I am fond of pets and thoroughly enjoy caring for my furry companion. 😻🫶"),
         MyVersionModel(
           imageName: "Wifey",
-          descr: "I enjoy spending quality time with those dear to me, fostering cherished connections. 🥺❤️"),
-        MyVersionModel(
-          imageName: "AdventurousGirl",
-          descr: "Winters, snow, and travel? My favorites. The chill, the snow—it's magical. ❄️🤩")
-      ])
+          descr: "I find solace in the company of my cherished ones, which invigorates and rejuvenates me. 🥺❤️")
+      ]
+    )
   }
 }

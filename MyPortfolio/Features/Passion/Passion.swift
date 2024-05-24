@@ -15,20 +15,20 @@ struct Passion: View {
       SheetView(sheetSize: size, sheetHeading: "Versions of me 😁", allowScroll: false) { size in
         VStack {
           TabView {
-            ForEach(viewModel.data.myVersions, id: \.self) { version in
+              ForEach(Array(viewModel.data.myVersions.enumerated()), id: \.element) { index, version in
               MyVersionView(
                 imageName: version.imageName,
-                description: version.descr
+                description: version.descr,
+                currentImageIndex: String(index + 1),
+                totalImageCount: String(viewModel.data.myVersions.count)
               )
-              .frame(width: size.width * 0.85, height: size.height * 0.75)
+              .padding(.all, size.width * 0.1)
             }
           }
-          .frame(width: size.width * 0.9, height: size.height * 0.85)
           .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
           .onAppear {
             setupAppearance()
           }
-          Spacer()
         }
       }
     }

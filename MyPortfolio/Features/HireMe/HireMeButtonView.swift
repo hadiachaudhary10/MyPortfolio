@@ -37,7 +37,7 @@ struct HireMeButtonView: View {
           }
         } else {
           Button {
-            openURL(urlString: contactType.data ?? "")
+              AppService().openURL(urlString: contactType.data ?? "")
           } label: {
             HStack {
               Text(contactType.name)
@@ -58,27 +58,17 @@ struct HireMeButtonView: View {
     .padding(.trailing)
   }
 
-  private func openURL(urlString: String) {
-    if let url = URL(string: urlString) {
-      if UIApplication.shared.canOpenURL(url) {
-        UIApplication.shared.open(url)
-      } else {
-        print("Unable to open URL \(url).")
-      }
-    }
-  }
-
   private func copyNumber(number: String) {
      UIPasteboard.general.string = number
   }
 
   private func sendEmail(email: String) {
     if let email = email.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
-      openURL(urlString: "mailTo:\(email)")
+        AppService().openURL(urlString: "mailTo:\(email)")
     }
   }
 
   private func callNumber(number: String) {
-    openURL(urlString: "tel:\(number)")
+      AppService().openURL(urlString: "tel:\(number)")
   }
 }

@@ -88,6 +88,30 @@ extension EducationModel {
           SkillItemModel(skillName: "UIKit", skillValue: 4),
           SkillItemModel(skillName: "Objective-C", skillValue: 3),
           SkillItemModel(skillName: "UI/UX Designer", skillValue: 4)
-        ])
+        ],
+        projectsList: [
+            ProjectItemModel(
+                projectName: "SweetTreatsGuide",
+                projectDescription: "The app retrieves a list of desserts from an API endpoint and displays them. When a dessert is selected, a detailed screen shows its ingredients and instructions. Additionally, if available, a YouTube video is displayed on the detailed screen.",
+                technologiesUsed: "Swift, SwiftUI, API Integration",
+                demoVideoName: "test",
+                projectGithubURL: "https://github.com/hadiachaudhary10/SweetTreatsGuide"
+            ),
+            ProjectItemModel(
+                projectName: "BlockbusterVault",
+                projectDescription: "The app displays a grid of popular movies fetched from a designated endpoint. When a movie is selected, it navigates to a detailed view that provides information such as the movie's overview, rating, genres, release date, and production companies.",
+                technologiesUsed: "Swift, SwiftUI, MVVM Architecture, API Integration",
+                demoVideoName: "test",
+                projectGithubURL: "https://github.com/hadiachaudhary10/BlockbusterVault"
+            ),
+            ProjectItemModel(
+                projectName: "LittleLemon",
+                projectDescription: "The app lets users register or sign in, view a brief restaurant introduction, search for menu items, navigate through categories, browse items fetched from an endpoint, update personal details, and log out.",
+                technologiesUsed: "SwiftUI, Core Data, Google Fonts",
+                demoVideoName: "test",
+                projectGithubURL: "https://github.com/hadiachaudhary10/littlelemon"
+            )
+        ]
+      )
   }
 }

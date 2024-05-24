@@ -47,7 +47,13 @@ extension HireMeMenuModel {
           imageName: "person",
           data: Constant.LINKEDIN_PROFILE,
           subItem: nil
-        )
+        ),
+          HireMeMenuModel(
+            name: "Github",
+            imageName: "ellipsis.curlybraces",
+            data: Constant.GITHUB_PROFILE,
+            subItem: nil
+          )
       ]
   }
 }

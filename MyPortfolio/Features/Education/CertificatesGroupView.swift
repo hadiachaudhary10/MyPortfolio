@@ -42,7 +42,7 @@ struct CertificateItemView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Button {
-        openURL(urlString: certificateProofEmail)
+          AppService().openURL(urlString: certificateProofEmail)
       } label: {
         Text(certificateName)
           .foregroundColor(.textColor)
@@ -59,10 +59,5 @@ struct CertificateItemView: View {
         .font(.footnote)
     }
     .padding(.all)
-  }
-  private func openURL(urlString: String) {
-    if let url = URL(string: urlString) {
-      UIApplication.shared.open(url)
-    }
   }
 }

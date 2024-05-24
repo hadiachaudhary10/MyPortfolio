@@ -16,6 +16,7 @@ struct Education: View {
         EducationGroupView(educationsList: viewModel.data.educationsList)
         CertificatesGroupView(certificatesList: viewModel.data.certificatesList)
         SkillsGroupView(skillsList: viewModel.data.skillsList)
+        ProjectsGroupView(projectsList: viewModel.data.projectsList)
       }
     }
   }
