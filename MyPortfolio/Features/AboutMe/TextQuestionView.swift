@@ -27,7 +27,7 @@ struct TextQuestionView: View {
       .cornerRadius(15)
       .padding(.horizontal)
     }
-    .padding(.vertical)
+    .padding(.vertical, 10)
   }
 }
 

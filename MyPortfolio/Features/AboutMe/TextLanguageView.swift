@@ -49,7 +49,7 @@ struct TextLanguageView: View {
                 }
               }
             }
-            .padding(.vertical)
+            .padding(.vertical, 5)
           }
         }
         Spacer()
@@ -74,7 +74,7 @@ struct TextLanguageView: View {
       .cornerRadius(15)
       .padding(.horizontal)
     }
-    .padding(.vertical)
+    .padding(.vertical, 10)
   }
 }
 

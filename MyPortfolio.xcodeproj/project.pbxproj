@@ -29,9 +29,6 @@
 		301700442BF02F04009516B1 /* HireMeMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700432BF02F04009516B1 /* HireMeMenuModel.swift */; };
 		301700462BF030E3009516B1 /* HireMeMenuModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */; };
 		301700492BF03215009516B1 /* HireMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700482BF03215009516B1 /* HireMeViewModel.swift */; };
-		30B08E342C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */; };
-		30B08E3A2C0497AB009A3648 /* BlockBusterVaultDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */; };
-		30B08E3C2C049BF2009A3648 /* LittleLemonDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E3B2C049BF2009A3648 /* LittleLemonDemo.mp4 */; };
 		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
 		D712D8D22B3D72FB0061A733 /* BackgroundUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */; };
 		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
@@ -50,6 +47,9 @@
 		D798EFC62B5B2F4B00F490E7 /* EducationGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */; };
 		D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */; };
 		D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC92B5B404900F490E7 /* Constant.swift */; };
+		D7CCA5672C04FE7100A3E2C5 /* BlockBusterVaultDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7CCA5662C04FE7100A3E2C5 /* BlockBusterVaultDemo.mp4 */; };
+		D7CCA5692C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7CCA5682C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 */; };
+		D7CCA56B2C05117500A3E2C5 /* LittleLemonDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7CCA56A2C05117500A3E2C5 /* LittleLemonDemo.mp4 */; };
 		D7E718C12BFFAF8300CC8605 /* CareerGoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */; };
 		D7E718C72BFFB31100CC8605 /* ChatBubbleArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */; };
 		D7E718C92BFFB35000CC8605 /* CareerGoalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */; };
@@ -93,9 +93,6 @@
 		301700432BF02F04009516B1 /* HireMeMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModel.swift; sourceTree = "<group>"; };
 		301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModelMock.swift; sourceTree = "<group>"; };
 		301700482BF03215009516B1 /* HireMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeViewModel.swift; sourceTree = "<group>"; };
-		30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SweetTreatsGuideDemo.mp4; sourceTree = "<group>"; };
-		30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlockBusterVaultDemo.mp4; sourceTree = "<group>"; };
-		30B08E3B2C049BF2009A3648 /* LittleLemonDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LittleLemonDemo.mp4; sourceTree = "<group>"; };
 		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
 		D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUI.swift; sourceTree = "<group>"; };
@@ -116,6 +113,9 @@
 		D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationGroupView.swift; sourceTree = "<group>"; };
 		D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesGroupView.swift; sourceTree = "<group>"; };
 		D798EFC92B5B404900F490E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D7CCA5662C04FE7100A3E2C5 /* BlockBusterVaultDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlockBusterVaultDemo.mp4; sourceTree = "<group>"; };
+		D7CCA5682C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SweetTreatsGuideDemo.mp4; sourceTree = "<group>"; };
+		D7CCA56A2C05117500A3E2C5 /* LittleLemonDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LittleLemonDemo.mp4; sourceTree = "<group>"; };
 		D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsModel.swift; sourceTree = "<group>"; };
 		D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleArrowShape.swift; sourceTree = "<group>"; };
 		D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsMock.swift; sourceTree = "<group>"; };
@@ -325,9 +325,9 @@
 		D7E7193A2C01318E00CC8605 /* ProjectVideos */ = {
 			isa = PBXGroup;
 			children = (
-				30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */,
-				30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */,
-				30B08E3B2C049BF2009A3648 /* LittleLemonDemo.mp4 */,
+				D7CCA5662C04FE7100A3E2C5 /* BlockBusterVaultDemo.mp4 */,
+				D7CCA5682C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 */,
+				D7CCA56A2C05117500A3E2C5 /* LittleLemonDemo.mp4 */,
 			);
 			path = ProjectVideos;
 			sourceTree = "<group>";
@@ -431,12 +431,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CCA56B2C05117500A3E2C5 /* LittleLemonDemo.mp4 in Resources */,
+				D7CCA5672C04FE7100A3E2C5 /* BlockBusterVaultDemo.mp4 in Resources */,
 				D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */,
-				30B08E3C2C049BF2009A3648 /* LittleLemonDemo.mp4 in Resources */,
 				D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */,
 				D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */,
-				30B08E342C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 in Resources */,
-				30B08E3A2C0497AB009A3648 /* BlockBusterVaultDemo.mp4 in Resources */,
+				D7CCA5692C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 in Resources */,
 				D712D8E42B3EE5B30061A733 /* Nunito-Bold.ttf in Resources */,
 				D71544722B26F60100C53089 /* Assets.xcassets in Resources */,
 			);
