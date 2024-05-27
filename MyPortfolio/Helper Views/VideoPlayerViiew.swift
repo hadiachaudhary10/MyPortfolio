@@ -17,6 +17,7 @@ struct VideoPlayerView: UIViewControllerRepresentable {
         let playerItem = AVPlayerItem(url: URL(fileURLWithPath: path))
         let player = AVPlayer(playerItem: playerItem)
         let playerViewController = AVPlayerViewController()
+        playerViewController.view.backgroundColor = .white
         playerViewController.player = player
         playerViewController.showsPlaybackControls = true
         player.play()

@@ -29,6 +29,8 @@
 		301700442BF02F04009516B1 /* HireMeMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700432BF02F04009516B1 /* HireMeMenuModel.swift */; };
 		301700462BF030E3009516B1 /* HireMeMenuModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */; };
 		301700492BF03215009516B1 /* HireMeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301700482BF03215009516B1 /* HireMeViewModel.swift */; };
+		30B08E342C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */; };
+		30B08E3A2C0497AB009A3648 /* BlockBusterVaultDemo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */; };
 		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
 		D712D8D22B3D72FB0061A733 /* BackgroundUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */; };
 		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
@@ -47,7 +49,6 @@
 		D798EFC62B5B2F4B00F490E7 /* EducationGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */; };
 		D798EFC82B5B3D8500F490E7 /* CertificatesGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */; };
 		D798EFCA2B5B404900F490E7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D798EFC92B5B404900F490E7 /* Constant.swift */; };
-		D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D7E5A7932B270473000C19F1 /* .swiftlint.yml */; };
 		D7E718C12BFFAF8300CC8605 /* CareerGoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */; };
 		D7E718C72BFFB31100CC8605 /* ChatBubbleArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */; };
 		D7E718C92BFFB35000CC8605 /* CareerGoalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */; };
@@ -57,7 +58,6 @@
 		D7E718D12BFFD68900CC8605 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D02BFFD68900CC8605 /* Points.swift */; };
 		D7E718D32BFFD6A100CC8605 /* CurvedPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D22BFFD6A100CC8605 /* CurvedPathView.swift */; };
 		D7E718D52BFFFA4500CC8605 /* ProjectsGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D42BFFFA4500CC8605 /* ProjectsGroupView.swift */; };
-		D7E718D72C00035E00CC8605 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7E718D62C00035E00CC8605 /* test.mp4 */; };
 		D7E718D92C00050E00CC8605 /* VideoPlayerViiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E718D82C00050E00CC8605 /* VideoPlayerViiew.swift */; };
 		D7F463682B2715EB00F5C365 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F463672B2715EB00F5C365 /* Color+Extensions.swift */; };
 		D7F4636C2B2718BA00F5C365 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */; };
@@ -92,6 +92,8 @@
 		301700432BF02F04009516B1 /* HireMeMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModel.swift; sourceTree = "<group>"; };
 		301700452BF030E3009516B1 /* HireMeMenuModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeMenuModelMock.swift; sourceTree = "<group>"; };
 		301700482BF03215009516B1 /* HireMeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HireMeViewModel.swift; sourceTree = "<group>"; };
+		30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SweetTreatsGuideDemo.mp4; sourceTree = "<group>"; };
+		30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlockBusterVaultDemo.mp4; sourceTree = "<group>"; };
 		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
 		D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUI.swift; sourceTree = "<group>"; };
@@ -112,7 +114,6 @@
 		D798EFC52B5B2F4B00F490E7 /* EducationGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationGroupView.swift; sourceTree = "<group>"; };
 		D798EFC72B5B3D8500F490E7 /* CertificatesGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesGroupView.swift; sourceTree = "<group>"; };
 		D798EFC92B5B404900F490E7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		D7E5A7932B270473000C19F1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D7E718C02BFFAF8300CC8605 /* CareerGoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsModel.swift; sourceTree = "<group>"; };
 		D7E718C62BFFB31100CC8605 /* ChatBubbleArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleArrowShape.swift; sourceTree = "<group>"; };
 		D7E718C82BFFB35000CC8605 /* CareerGoalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerGoalsMock.swift; sourceTree = "<group>"; };
@@ -122,7 +123,6 @@
 		D7E718D02BFFD68900CC8605 /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 		D7E718D22BFFD6A100CC8605 /* CurvedPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedPathView.swift; sourceTree = "<group>"; };
 		D7E718D42BFFFA4500CC8605 /* ProjectsGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsGroupView.swift; sourceTree = "<group>"; };
-		D7E718D62C00035E00CC8605 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		D7E718D82C00050E00CC8605 /* VideoPlayerViiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViiew.swift; sourceTree = "<group>"; };
 		D7F463672B2715EB00F5C365 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		D7F4636B2B2718BA00F5C365 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
@@ -281,7 +281,6 @@
 		D71544612B26F60000C53089 = {
 			isa = PBXGroup;
 			children = (
-				D7E5A7932B270473000C19F1 /* .swiftlint.yml */,
 				D715446C2B26F60000C53089 /* MyPortfolio */,
 				D715446B2B26F60000C53089 /* Products */,
 			);
@@ -324,7 +323,8 @@
 		D7E7193A2C01318E00CC8605 /* ProjectVideos */ = {
 			isa = PBXGroup;
 			children = (
-				D7E718D62C00035E00CC8605 /* test.mp4 */,
+				30B08E332C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 */,
+				30B08E392C0497AB009A3648 /* BlockBusterVaultDemo.mp4 */,
 			);
 			path = ProjectVideos;
 			sourceTree = "<group>";
@@ -382,6 +382,8 @@
 			dependencies = (
 			);
 			name = MyPortfolio;
+			packageProductDependencies = (
+			);
 			productName = MyPortfolio;
 			productReference = D715446A2B26F60000C53089 /* MyPortfolio.app */;
 			productType = "com.apple.product-type.application";
@@ -411,7 +413,6 @@
 			);
 			mainGroup = D71544612B26F60000C53089;
 			packageReferences = (
-				D7E5A7912B270417000C19F1 /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = D715446B2B26F60000C53089 /* Products */;
 			projectDirPath = "";
@@ -427,11 +428,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7E5A7942B270473000C19F1 /* .swiftlint.yml in Resources */,
 				D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */,
 				D71544752B26F60100C53089 /* Preview Assets.xcassets in Resources */,
-				D7E718D72C00035E00CC8605 /* test.mp4 in Resources */,
 				D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */,
+				30B08E342C048DFA009A3648 /* SweetTreatsGuideDemo.mp4 in Resources */,
+				30B08E3A2C0497AB009A3648 /* BlockBusterVaultDemo.mp4 in Resources */,
 				D712D8E42B3EE5B30061A733 /* Nunito-Bold.ttf in Resources */,
 				D71544722B26F60100C53089 /* Assets.xcassets in Resources */,
 			);
@@ -720,17 +721,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D7E5A7912B270417000C19F1 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.2;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D71544622B26F60000C53089 /* Project object */;
 }
