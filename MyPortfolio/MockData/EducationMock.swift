@@ -2,7 +2,7 @@
 //  EducationMock.swift
 //  MyPortfolio
 //
-//  Created by Hadia Jabran on 11/05/2024.
+//  Created by Dev on 11/05/2024.
 //
 
 import Foundation
@@ -108,7 +108,7 @@ extension EducationModel {
                 projectName: "LittleLemon",
                 projectDescription: "The app lets users register or sign in, view a brief restaurant introduction, search for menu items, navigate through categories, browse items fetched from an endpoint, update personal details, and log out.",
                 technologiesUsed: "SwiftUI, Core Data, Google Fonts",
-                demoVideoName: "SweetTreatsGuideDemo",
+                demoVideoName: "LittleLemonDemo",
                 projectGithubURL: "https://github.com/hadiachaudhary10/littlelemon"
             )
         ]
