@@ -63,6 +63,7 @@
 		30B08E7F2C0608D6009A3648 /* HireMeMenuDetailDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E6E2C0608D6009A3648 /* HireMeMenuDetailDark.png */; };
 		30B08E812C0609A5009A3648 /* HireMeMenuMainLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E802C0609A5009A3648 /* HireMeMenuMainLight.png */; };
 		30B08E832C060A74009A3648 /* DemoScreenDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E822C060A74009A3648 /* DemoScreenDark.png */; };
+		30B08E892C0629DC009A3648 /* AppOverview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 30B08E882C0629DC009A3648 /* AppOverview.pdf */; };
 		D712D8D02B3D72B10061A733 /* DaysOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */; };
 		D712D8D22B3D72FB0061A733 /* BackgroundUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */; };
 		D712D8E22B3EDA100061A733 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D712D8E12B3EDA100061A733 /* Nunito-Black.ttf */; };
@@ -161,6 +162,7 @@
 		30B08E6E2C0608D6009A3648 /* HireMeMenuDetailDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HireMeMenuDetailDark.png; sourceTree = "<group>"; };
 		30B08E802C0609A5009A3648 /* HireMeMenuMainLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HireMeMenuMainLight.png; sourceTree = "<group>"; };
 		30B08E822C060A74009A3648 /* DemoScreenDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DemoScreenDark.png; sourceTree = "<group>"; };
+		30B08E882C0629DC009A3648 /* AppOverview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AppOverview.pdf; sourceTree = "<group>"; };
 		D712D8CC2B3D70D00061A733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D712D8CF2B3D72B10061A733 /* DaysOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DaysOne-Regular.ttf"; sourceTree = "<group>"; };
 		D712D8D12B3D72FB0061A733 /* BackgroundUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUI.swift; sourceTree = "<group>"; };
@@ -341,6 +343,7 @@
 		30B08E3D2C0608B2009A3648 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				30B08E882C0629DC009A3648 /* AppOverview.pdf */,
 				30B08E6F2C0608D6009A3648 /* DarkMode */,
 				30B08E4E2C0608CA009A3648 /* LightMode */,
 			);
@@ -584,6 +587,7 @@
 				30B08E4F2C0608CA009A3648 /* SplashScreenLight.png in Resources */,
 				30B08E5E2C0608CA009A3648 /* DemoScreenLight.png in Resources */,
 				D7CCA5692C05063A00A3E2C5 /* SweetTreatsGuideDemo.mp4 in Resources */,
+				30B08E892C0629DC009A3648 /* AppOverview.pdf in Resources */,
 				30B08E5D2C0608CA009A3648 /* HireMeMenuDetailLight.png in Resources */,
 				D712D8E42B3EE5B30061A733 /* Nunito-Bold.ttf in Resources */,
 				30B08E7D2C0608D6009A3648 /* PassionsSheetDark.png in Resources */,
