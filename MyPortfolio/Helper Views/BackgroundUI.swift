@@ -12,69 +12,66 @@ struct BackgroundUI: View {
   var caption1: String
   var caption2: String
   var bottomPadding: CGFloat
-
+  
   @State var isShowingCaption1: Bool = false
   @State var isShowingCaption2: Bool = false
-
+  
   @StateObject var appService = AppService.shared
   @Environment(\.colorScheme) var colorScheme
   var body: some View {
-   GeometryReader { geo in
-      VStack {
-        HStack {
-          Spacer()
-          if appService.showHireButtonInBackground {
-            HireMeButtonView(viewModel: HireMeViewModel())
-          }
-        }
+    VStack {
+      HStack {
         Spacer()
-        HStack {
-          VStack(alignment: .leading) {
-            if isShowingCaption1 {
-              Text(caption1)
-                .font(.custom("Nunito-Black", size: 50, relativeTo: .largeTitle))
-                .foregroundColor(.white)
-            }
-            Text(caption2)
+        if appService.showHireButtonInBackground {
+          HireMeButtonView(viewModel: HireMeViewModel())
+        }
+      }
+      Spacer()
+      HStack {
+        VStack(alignment: .leading) {
+          if isShowingCaption1 {
+            Text(caption1)
               .font(.custom("Nunito-Black", size: 50, relativeTo: .largeTitle))
               .foregroundColor(.white)
-              .opacity(isShowingCaption2 ? 1 : 0)
           }
-          .padding(.bottom)
-          .transition(.move(edge: self.isShowingCaption1 ? .leading : .trailing))
-          .transition(.move(edge: self.isShowingCaption2 ? .leading : .trailing))
-          Spacer()
+          Text(caption2)
+            .font(.custom("Nunito-Black", size: 50, relativeTo: .largeTitle))
+            .foregroundColor(.white)
+            .opacity(isShowingCaption2 ? 1 : 0)
         }
-        .padding(.all)
-        .padding(.bottom, bottomPadding)
+        .padding(.bottom)
+        .transition(.move(edge: self.isShowingCaption1 ? .leading : .trailing))
+        .transition(.move(edge: self.isShowingCaption2 ? .leading : .trailing))
+        Spacer()
       }
-      .background(
-        VStack {
-          Image(picture)
-            .resizable()
-            .scaledToFill()
-            .edgesIgnoringSafeArea(.all)
-        }
-         .background(picture == "AboutMePic" ? Color.canvasTintLtd : Color.clear)
-         .opacity(colorScheme == .dark ? 0.7 : 1)
-      )
-      .frame(width: geo.size.width, height: geo.size.height)
+      .padding(.all)
+      .padding(.bottom, bottomPadding)
     }
-   .onAppear {
-     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-       withAnimation(Animation.linear(duration: 1)) {
-         isShowingCaption1 = true
-       }
-     }
-     DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-       withAnimation(Animation.linear(duration: 1)) {
-         isShowingCaption2 = true
-       }
-     }
-   }
-   .onDisappear {
-     isShowingCaption1 = false
-     isShowingCaption2 = false
-   }
+    .background(
+      VStack {
+        Image(picture)
+          .resizable()
+          .scaledToFill()
+          .edgesIgnoringSafeArea(.all)
+      }
+        .background(picture == "AboutMePic" ? Color.canvasTintLtd : Color.clear)
+        .opacity(colorScheme == .dark ? 0.7 : 1)
+    )
+    .onAppear {
+      DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+        withAnimation(Animation.linear(duration: 1)) {
+          isShowingCaption1 = true
+        }
+      }
+      DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        withAnimation(Animation.linear(duration: 1)) {
+          isShowingCaption2 = true
+        }
+      }
+    }
+    .onDisappear {
+      isShowingCaption1 = false
+      isShowingCaption2 = false
+    }
   }
 }

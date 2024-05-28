@@ -53,9 +53,3 @@ struct ExperienceItemView: View {
     .padding(.vertical)
   }
 }
-
-struct ExperienceView_Previews: PreviewProvider {
-  static var previews: some View {
-    ExperienceItemView(position: "", locAndDur: "", detailPoints: [], size: .zero)
-  }
-}

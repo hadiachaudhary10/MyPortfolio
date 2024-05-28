@@ -9,7 +9,7 @@ import Foundation
 
 class HireMeViewModel: ObservableObject {
   @Published var data: [HireMeMenuModel]
-
+  
   init() {
     self.data = HireMeMenuModel.mock()
   }

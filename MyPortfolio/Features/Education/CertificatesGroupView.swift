@@ -24,10 +24,10 @@ struct CertificatesGroupView: View {
       .padding(.bottom)
       ForEach(certificatesList, id: \.self) { certificateItem in
         CertificateItemView(
-            certificateName: certificateItem.certificateName,
-            institutionName: certificateItem.institutionName,
-            issueDate: certificateItem.issueDate,
-            certificateProofEmail: certificateItem.certificateProofEmail)
+          certificateName: certificateItem.certificateName,
+          institutionName: certificateItem.institutionName,
+          issueDate: certificateItem.issueDate,
+          certificateProofEmail: certificateItem.certificateProofEmail)
       }
     }
     .padding(.all)
@@ -42,7 +42,7 @@ struct CertificateItemView: View {
   var body: some View {
     VStack(alignment: .leading) {
       Button {
-          AppService().openURL(urlString: certificateProofEmail)
+        AppService().openURL(urlString: certificateProofEmail)
       } label: {
         Text(certificateName)
           .foregroundColor(.textColor)

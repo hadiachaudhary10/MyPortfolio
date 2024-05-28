@@ -12,7 +12,7 @@ struct EducationModel {
   let educationsList: [EducationItemModel]
   let certificatesList: [CertificateItemModel]
   let skillsList: [SkillItemModel]
-    let projectsList: [ProjectItemModel]
+  let projectsList: [ProjectItemModel]
 }
 
 struct CertificateItemModel: Hashable {
@@ -33,9 +33,9 @@ struct SkillItemModel: Hashable {
 }
 
 struct ProjectItemModel: Hashable {
-    let projectName: String
-    let projectDescription: String
-    let technologiesUsed: String
-    let demoVideoName: String
-    let projectGithubURL: String
+  let projectName: String
+  let projectDescription: String
+  let technologiesUsed: String
+  let demoVideoName: String
+  let projectGithubURL: String
 }

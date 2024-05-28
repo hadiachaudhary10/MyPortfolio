@@ -26,7 +26,7 @@ extension HireMeMenuModel {
             type: .sendEmail
           )
         ]),
-        HireMeMenuModel(
+      HireMeMenuModel(
         name: "Phone Number",
         imageName: "phone",
         data: nil,
@@ -42,18 +42,18 @@ extension HireMeMenuModel {
             type: .callNumber
           )
         ]),
-        HireMeMenuModel(
-          name: "Linkedin",
-          imageName: "person",
-          data: Constant.LINKEDIN_PROFILE,
-          subItem: nil
-        ),
-          HireMeMenuModel(
-            name: "Github",
-            imageName: "ellipsis.curlybraces",
-            data: Constant.GITHUB_PROFILE,
-            subItem: nil
-          )
-      ]
+      HireMeMenuModel(
+        name: "Linkedin",
+        imageName: "person",
+        data: Constant.LINKEDIN_PROFILE,
+        subItem: nil
+      ),
+      HireMeMenuModel(
+        name: "Github",
+        imageName: "ellipsis.curlybraces",
+        data: Constant.GITHUB_PROFILE,
+        subItem: nil
+      )
+    ]
   }
 }

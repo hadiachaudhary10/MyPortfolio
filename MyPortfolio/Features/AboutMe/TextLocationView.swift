@@ -31,9 +31,3 @@ struct TextLocationView: View {
     .padding(.vertical, 10)
   }
 }
-
-struct TextLocationView_Previews: PreviewProvider {
-  static var previews: some View {
-    TextLocationView(answer: "")
-  }
-}

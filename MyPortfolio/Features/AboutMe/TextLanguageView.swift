@@ -23,8 +23,8 @@ struct TextLanguageView: View {
       HStack {
         VStack {
           ForEach(Array(sortedLanguages.enumerated()), id: \.offset) { index, dict in
-           let key = dict.key
-           let value = dict.value
+            let key = dict.key
+            let value = dict.value
             VStack(alignment: .leading) {
               Text(key)
                 .font(.system(.subheadline))
@@ -42,8 +42,8 @@ struct TextLanguageView: View {
                       .fill(Color.canvasTintDtl)
                       .frame(
                         width: animationsList[index] ? (proficiencyBarWidth * CGFloat(value)) : 0,
-                           height: 5
-                       )
+                        height: 5
+                      )
                   }
                   Spacer()
                 }
@@ -75,11 +75,5 @@ struct TextLanguageView: View {
       .padding(.horizontal)
     }
     .padding(.vertical, 10)
-  }
-}
-
-struct TextLanguageView_Previews: PreviewProvider {
-  static var previews: some View {
-    TextLanguageView(size: .zero, languages: [:])
   }
 }

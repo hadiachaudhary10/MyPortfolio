@@ -8,9 +8,9 @@
 import Foundation
 
 class CareerGoalsViewModel: ObservableObject {
-    @Published var data: CareerGoalsModel
-
-    init() {
-      self.data = CareerGoalsModel.mock()
-    }
+  @Published var data: CareerGoalsModel
+  
+  init() {
+    self.data = CareerGoalsModel.mock()
+  }
 }

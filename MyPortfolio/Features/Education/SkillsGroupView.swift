@@ -52,7 +52,7 @@ struct SkillItemView: View {
       .frame(width: UIScreen.main.bounds.width/3)
       .padding(.trailing, 20)
       ForEach(Array(0..<5), id: \.self) { value in
-          Image(systemName: "star.fill")
+        Image(systemName: "star.fill")
           .foregroundColor( value < skillValue ? .canvasTintDtl : .canvasTintDtl.opacity(0.4))
           .font(.system(size: 13))
       }

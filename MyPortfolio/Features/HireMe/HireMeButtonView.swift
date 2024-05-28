@@ -37,7 +37,7 @@ struct HireMeButtonView: View {
           }
         } else {
           Button {
-              AppService().openURL(urlString: contactType.data ?? "")
+            AppService().openURL(urlString: contactType.data ?? "")
           } label: {
             HStack {
               Text(contactType.name)
@@ -57,18 +57,18 @@ struct HireMeButtonView: View {
     .cornerRadius(25)
     .padding(.trailing)
   }
-
+  
   private func copyNumber(number: String) {
-     UIPasteboard.general.string = number
+    UIPasteboard.general.string = number
   }
-
+  
   private func sendEmail(email: String) {
     if let email = email.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
-        AppService().openURL(urlString: "mailTo:\(email)")
+      AppService().openURL(urlString: "mailTo:\(email)")
     }
   }
-
+  
   private func callNumber(number: String) {
-      AppService().openURL(urlString: "tel:\(number)")
+    AppService().openURL(urlString: "tel:\(number)")
   }
 }

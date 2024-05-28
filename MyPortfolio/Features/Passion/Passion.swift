@@ -15,7 +15,7 @@ struct Passion: View {
       SheetView(sheetSize: size, sheetHeading: "Versions of me 😁", allowScroll: false) { size in
         VStack {
           TabView {
-              ForEach(Array(viewModel.data.myVersions.enumerated()), id: \.element) { index, version in
+            ForEach(Array(viewModel.data.myVersions.enumerated()), id: \.element) { index, version in
               MyVersionView(
                 imageName: version.imageName,
                 description: version.descr,

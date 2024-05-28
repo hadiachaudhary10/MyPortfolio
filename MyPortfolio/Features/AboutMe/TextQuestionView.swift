@@ -30,9 +30,3 @@ struct TextQuestionView: View {
     .padding(.vertical, 10)
   }
 }
-
-struct TextQuestionView_Previews: PreviewProvider {
-  static var previews: some View {
-    TextQuestionView(question: "", answer: "")
-  }
-}
